@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add item to basket</description>
+   <name>Add item to basket from homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3331595-7555-4067-8135-dfcbfc2f153e</testCaseGuid>
+</TestCaseEntity>

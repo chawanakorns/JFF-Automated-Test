@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test search function,Chrome 122.0.0.0,,,23-03-2024 19:54:52,23-03-2024 19:55:05,13.339s,PASSED
+,,,,,,,
+Test Cases/TC2,Chrome 122.0.0.0,,,23-03-2024 19:54:52,23-03-2024 19:54:58,5.772s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,23-03-2024 19:54:53,23-03-2024 19:54:55,1.871s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/"")",Chrome 122.0.0.0,,,23-03-2024 19:54:55,23-03-2024 19:54:56,1.524s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,23-03-2024 19:54:56,23-03-2024 19:54:56,0.166s,PASSED
+"setText(findTestObject(""Object Repository/Search/searchbar""), ""gordon"")",Chrome 122.0.0.0,,,23-03-2024 19:54:56,23-03-2024 19:54:57,0.822s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/searchbar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 19:54:57,23-03-2024 19:54:58,0.671s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search/bookname""), ""Gordon Ramsay Quick and Delicious: 100 Recipe"")",Chrome 122.0.0.0,,,23-03-2024 19:54:58,23-03-2024 19:54:58,0.343s,PASSED
+,,,,,,,
+Test Cases/TC2,Chrome 122.0.0.0,,,23-03-2024 19:54:58,23-03-2024 19:55:02,3.701s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,23-03-2024 19:54:58,23-03-2024 19:54:59,1.035s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/"")",Chrome 122.0.0.0,,,23-03-2024 19:54:59,23-03-2024 19:55:00,0.882s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,23-03-2024 19:55:00,23-03-2024 19:55:00,0.133s,PASSED
+"setText(findTestObject(""Object Repository/Search/searchbar""), ""gordon"")",Chrome 122.0.0.0,,,23-03-2024 19:55:00,23-03-2024 19:55:01,0.680s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/searchbar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 19:55:01,23-03-2024 19:55:02,0.628s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search/bookname""), ""Gordon Ramsay Quick and Delicious: 100 Recipe"")",Chrome 122.0.0.0,,,23-03-2024 19:55:02,23-03-2024 19:55:02,0.318s,PASSED
+,,,,,,,
+Test Cases/TC2,Chrome 122.0.0.0,,,23-03-2024 19:55:02,23-03-2024 19:55:05,3.521s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,23-03-2024 19:55:02,23-03-2024 19:55:03,0.861s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/"")",Chrome 122.0.0.0,,,23-03-2024 19:55:03,23-03-2024 19:55:04,0.827s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,23-03-2024 19:55:04,23-03-2024 19:55:04,0.132s,PASSED
+"setText(findTestObject(""Object Repository/Search/searchbar""), ""gordon"")",Chrome 122.0.0.0,,,23-03-2024 19:55:04,23-03-2024 19:55:04,0.656s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/searchbar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 19:55:04,23-03-2024 19:55:05,0.611s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search/bookname""), ""Gordon Ramsay Quick and Delicious: 100 Recipe"")",Chrome 122.0.0.0,,,23-03-2024 19:55:05,23-03-2024 19:55:05,0.413s,PASSED

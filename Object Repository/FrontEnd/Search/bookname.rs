@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>bookname</name>
+   <tag></tag>
+   <elementGuidId>46742e62-3c17-4345-b314-11ed9fc7ebd5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h6.card-title.text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//html/body/div/div[3]/div[2]/div/div[2]/div[1]/div[1]/a/div/h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>19de36bc-0d54-46b9-bdd3-eb9750f284e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title text</value>
+      <webElementGuid>1d4ecfd1-171b-450a-9d1f-c2c703e956e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Gordon Ramsay Quick and Delicious: 100 Recipe</value>
+      <webElementGuid>ac128c49-f6c7-4509-bef5-0fef7a490ed2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container-fluid row main&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9&quot;]/div[@class=&quot;box-right&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row book-row d-flex justify-content-left flex-wrap&quot;]/div[@class=&quot;col-lg-3 col-sm-5 position-relative book-row&quot;]/a[@class=&quot;text-dark&quot;]/div[@class=&quot;card-body px-0&quot;]/h6[@class=&quot;card-title text&quot;]</value>
+      <webElementGuid>1e2296b8-ea2b-4472-b577-3714312f0632</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='gordon'])[1]/following::h6[1]</value>
+      <webElementGuid>baae30da-28c1-4fd0-b344-b79b1297db4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='฿1000.00'])[1]/preceding::h6[1]</value>
+      <webElementGuid>eb7a2662-cb3f-4605-8e77-0ba7a00f8534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[1]/preceding::h6[1]</value>
+      <webElementGuid>c2c31867-d097-4b56-a8b3-26affebdeaec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Gordon Ramsay Quick and Delicious: 100 Recipe']/parent::*</value>
+      <webElementGuid>9f21f682-56f4-4317-a257-c013bcc84cc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/h6</value>
+      <webElementGuid>30224e94-b903-40e0-abf8-4c4cf1f0cdfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Gordon Ramsay Quick and Delicious: 100 Recipe' or . = 'Gordon Ramsay Quick and Delicious: 100 Recipe')]</value>
+      <webElementGuid>75b94311-a35d-4b04-8058-5ee092d9d9d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test search function" time="13.339" tests="3" failures="0" errors="0">
+   <testsuite name="Test search function" tests="3" failures="0" errors="0" time="13.339" skipped="0" timestamp="23-03-2024T19:54:52" hostname="jj101 - JJKung" id="Test Suites/Test search function">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jj101\\git\\JFF-Automated-Test\\Reports\\25670323_195438\\Test search function\\25670323_195438"/>
+         <property name="logFiles" value="C:\\Users\\jj101\\git\\JFF-Automated-Test\\Reports\\25670323_195438\\Test search function\\25670323_195438\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jj101 - JJKung"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="26.197.199.243"/>
+         <property name="sessionId" value="33c63c55ab31021c07f2aa99bf8794df"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC2" time="5.772" classname="Test Cases/TC2" status="PASSED">
+         <system-out><![CDATA[23-03-2024T19:54:52 - [TEST_CASE][PASSED] - Test Cases/TC2: Test Cases/TC2
+
+23-03-2024T19:54:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-03-2024T19:54:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-03-2024T19:54:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-03-2024T19:54:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-03-2024T19:54:55 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/"): Navigate to 'http://18.140.98.114:8080/' successfully
+
+23-03-2024T19:54:56 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/' successfully
+
+23-03-2024T19:54:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-03-2024T19:54:56 - [MESSAGE][PASSED] - Current window maximized
+
+23-03-2024T19:54:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/searchbar"), "gordon"): Text 'gordon' is set on object 'Object Repository/Search/searchbar'
+
+23-03-2024T19:54:57 - [MESSAGE][PASSED] - Text 'gordon' is set on object 'Object Repository/Search/searchbar'
+
+23-03-2024T19:54:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/searchbar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/searchbar'
+
+23-03-2024T19:54:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/searchbar'
+
+23-03-2024T19:54:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search/bookname"), "Gordon Ramsay Quick and Delicious: 100 Recipe"): Actual text and expected text of test object 'Object Repository/Search/bookname' are matched.
+
+23-03-2024T19:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search/bookname' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2" time="3.701" classname="Test Cases/TC2" status="PASSED">
+         <system-out><![CDATA[23-03-2024T19:54:58 - [TEST_CASE][PASSED] - Test Cases/TC2: Test Cases/TC2
+
+23-03-2024T19:54:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-03-2024T19:54:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-03-2024T19:54:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-03-2024T19:54:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-03-2024T19:54:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-03-2024T19:54:59 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/"): Navigate to 'http://18.140.98.114:8080/' successfully
+
+23-03-2024T19:55:00 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/' successfully
+
+23-03-2024T19:55:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-03-2024T19:55:00 - [MESSAGE][PASSED] - Current window maximized
+
+23-03-2024T19:55:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/searchbar"), "gordon"): Text 'gordon' is set on object 'Object Repository/Search/searchbar'
+
+23-03-2024T19:55:01 - [MESSAGE][PASSED] - Text 'gordon' is set on object 'Object Repository/Search/searchbar'
+
+23-03-2024T19:55:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/searchbar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/searchbar'
+
+23-03-2024T19:55:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/searchbar'
+
+23-03-2024T19:55:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search/bookname"), "Gordon Ramsay Quick and Delicious: 100 Recipe"): Actual text and expected text of test object 'Object Repository/Search/bookname' are matched.
+
+23-03-2024T19:55:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search/bookname' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2" time="3.521" classname="Test Cases/TC2" status="PASSED">
+         <system-out><![CDATA[23-03-2024T19:55:02 - [TEST_CASE][PASSED] - Test Cases/TC2: Test Cases/TC2
+
+23-03-2024T19:55:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-03-2024T19:55:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-03-2024T19:55:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-03-2024T19:55:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-03-2024T19:55:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-03-2024T19:55:03 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/"): Navigate to 'http://18.140.98.114:8080/' successfully
+
+23-03-2024T19:55:04 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/' successfully
+
+23-03-2024T19:55:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-03-2024T19:55:04 - [MESSAGE][PASSED] - Current window maximized
+
+23-03-2024T19:55:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/searchbar"), "gordon"): Text 'gordon' is set on object 'Object Repository/Search/searchbar'
+
+23-03-2024T19:55:04 - [MESSAGE][PASSED] - Text 'gordon' is set on object 'Object Repository/Search/searchbar'
+
+23-03-2024T19:55:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/searchbar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/searchbar'
+
+23-03-2024T19:55:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/searchbar'
+
+23-03-2024T19:55:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search/bookname"), "Gordon Ramsay Quick and Delicious: 100 Recipe"): Actual text and expected text of test object 'Object Repository/Search/bookname' are matched.
+
+23-03-2024T19:55:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search/bookname' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-03-2024T19:54:52 - [TEST_SUITE][PASSED] - Test search function: Test Cases/TC2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

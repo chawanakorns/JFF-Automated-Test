@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>poetryBook</name>
+   <tag></tag>
+   <elementGuidId>65ac3326-09d9-4f02-9cf0-d2a7fe02afe5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h6.card-title.text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//html/body/div/div[3]/div[2]/div/div/div[1]/div[1]/a/div/h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>a3216b17-d755-4b4f-92c5-5eecfe50f706</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title text</value>
+      <webElementGuid>fffa8309-d669-4af1-b12d-1bf7408390e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>book 2</value>
+      <webElementGuid>040dab83-f55e-4ec3-b51d-fc3337a2b68f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container-fluid row main&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9&quot;]/div[@class=&quot;box-right&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row book-row d-flex justify-content-left flex-wrap&quot;]/div[@class=&quot;col-lg-3 col-sm-5 position-relative book-row&quot;]/a[@class=&quot;text-dark&quot;]/div[@class=&quot;card-body px-0&quot;]/h6[@class=&quot;card-title text&quot;]</value>
+      <webElementGuid>dfc02ffe-6151-4f26-96c2-d52ac12a4f8b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Poetry'])[2]/following::h6[1]</value>
+      <webElementGuid>833d6611-10e0-470d-8d56-b710d81d53bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='฿12.00'])[1]/preceding::h6[1]</value>
+      <webElementGuid>5f07614d-5d5e-42e7-b7df-9cf96a3b0e7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[1]/preceding::h6[1]</value>
+      <webElementGuid>0f7c0901-1539-4502-87f3-4a141071a5c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='book 2']/parent::*</value>
+      <webElementGuid>5d7717ff-7f55-42f9-afb8-7194dbfbdd65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/h6</value>
+      <webElementGuid>6622a1d4-93c6-47eb-b249-672f3daed8dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'book 2' or . = 'book 2')]</value>
+      <webElementGuid>07a2038f-de13-4f10-b659-87800e09afb9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

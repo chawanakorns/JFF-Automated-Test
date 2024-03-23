@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5294a27c-bdb1-469e-9c69-5df22f73ba8e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc1f897c-eb68-461f-b9e4-0154ed7edd78</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90269dab-4949-4bcd-91bf-94c64bba94ad</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dc1f897c-eb68-461f-b9e4-0154ed7edd78</id>
+      <masked>false</masked>
+      <name>typesearch</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>90269dab-4949-4bcd-91bf-94c64bba94ad</id>
+      <masked>false</masked>
+      <name>bookname</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test search function" time="13.746" tests="3" failures="0" errors="0">
+   <testsuite name="Test search function" tests="3" failures="0" errors="0" time="13.746" skipped="0" timestamp="23-03-2024T20:06:51" hostname="jj101 - JJKung" id="Test Suites/Test search function">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jj101\\git\\JFF-Automated-Test\\Reports\\25670323_200638\\Test search function\\25670323_200638"/>
+         <property name="logFiles" value="C:\\Users\\jj101\\git\\JFF-Automated-Test\\Reports\\25670323_200638\\Test search function\\25670323_200638\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jj101 - JJKung"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="26.197.199.243"/>
+         <property name="sessionId" value="5f0bc8807c0c67ea3cbe53180cd1e6c1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC2" time="6.327" classname="Test Cases/TC2" status="PASSED">
+         <system-out><![CDATA[23-03-2024T20:06:51 - [TEST_CASE][PASSED] - Test Cases/TC2: Test Cases/TC2
+
+23-03-2024T20:06:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-03-2024T20:06:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-03-2024T20:06:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-03-2024T20:06:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-03-2024T20:06:54 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/"): Navigate to 'http://18.140.98.114:8080/' successfully
+
+23-03-2024T20:06:55 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/' successfully
+
+23-03-2024T20:06:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-03-2024T20:06:55 - [MESSAGE][PASSED] - Current window maximized
+
+23-03-2024T20:06:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/searchbar"), typesearch): Text 'gordon' is set on object 'Object Repository/Search/searchbar'
+
+23-03-2024T20:06:56 - [MESSAGE][PASSED] - Text 'gordon' is set on object 'Object Repository/Search/searchbar'
+
+23-03-2024T20:06:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/searchbar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/searchbar'
+
+23-03-2024T20:06:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/searchbar'
+
+23-03-2024T20:06:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search/bookname"), bookname): Actual text and expected text of test object 'Object Repository/Search/bookname' are matched.
+
+23-03-2024T20:06:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search/bookname' are matched.
+
+23-03-2024T20:06:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-03-2024T20:06:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2" time="3.605" classname="Test Cases/TC2" status="PASSED">
+         <system-out><![CDATA[23-03-2024T20:06:58 - [TEST_CASE][PASSED] - Test Cases/TC2: Test Cases/TC2
+
+23-03-2024T20:06:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-03-2024T20:06:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-03-2024T20:06:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-03-2024T20:06:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-03-2024T20:06:59 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/"): Navigate to 'http://18.140.98.114:8080/' successfully
+
+23-03-2024T20:06:59 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/' successfully
+
+23-03-2024T20:06:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-03-2024T20:07:00 - [MESSAGE][PASSED] - Current window maximized
+
+23-03-2024T20:07:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/searchbar"), typesearch): Text 'the' is set on object 'Object Repository/Search/searchbar'
+
+23-03-2024T20:07:00 - [MESSAGE][PASSED] - Text 'the' is set on object 'Object Repository/Search/searchbar'
+
+23-03-2024T20:07:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/searchbar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/searchbar'
+
+23-03-2024T20:07:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/searchbar'
+
+23-03-2024T20:07:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search/bookname"), bookname): Actual text and expected text of test object 'Object Repository/Search/bookname' are matched.
+
+23-03-2024T20:07:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search/bookname' are matched.
+
+23-03-2024T20:07:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-03-2024T20:07:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2" time="3.456" classname="Test Cases/TC2" status="PASSED">
+         <system-out><![CDATA[23-03-2024T20:07:01 - [TEST_CASE][PASSED] - Test Cases/TC2: Test Cases/TC2
+
+23-03-2024T20:07:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-03-2024T20:07:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-03-2024T20:07:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-03-2024T20:07:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-03-2024T20:07:02 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/"): Navigate to 'http://18.140.98.114:8080/' successfully
+
+23-03-2024T20:07:03 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/' successfully
+
+23-03-2024T20:07:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-03-2024T20:07:03 - [MESSAGE][PASSED] - Current window maximized
+
+23-03-2024T20:07:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/searchbar"), typesearch): Text 'cal' is set on object 'Object Repository/Search/searchbar'
+
+23-03-2024T20:07:04 - [MESSAGE][PASSED] - Text 'cal' is set on object 'Object Repository/Search/searchbar'
+
+23-03-2024T20:07:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/searchbar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/searchbar'
+
+23-03-2024T20:07:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/searchbar'
+
+23-03-2024T20:07:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search/bookname"), bookname): Actual text and expected text of test object 'Object Repository/Search/bookname' are matched.
+
+23-03-2024T20:07:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search/bookname' are matched.
+
+23-03-2024T20:07:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-03-2024T20:07:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-03-2024T20:06:51 - [TEST_SUITE][PASSED] - Test search function: Test Cases/TC2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

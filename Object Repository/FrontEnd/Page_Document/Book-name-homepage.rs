@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Book-name-homepage</name>
+   <tag></tag>
+   <elementGuidId>350ed928-b659-43dd-85d9-c8625287e6b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='myCarousel1']/div/div/div[2]/a/div/div/h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>f68387c8-2e4d-4d86-8382-c1d7e3f25631</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title text</value>
+      <webElementGuid>1265a884-6acd-420d-bfe1-f37afb3cd773</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Northern Italy: Emilia-Romagna</value>
+      <webElementGuid>65489c7d-6e4f-4844-b669-6939ec76afc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;myCarousel1&quot;)/div[@class=&quot;carousel-inner w-100&quot;]/div[@class=&quot;carousel-item active&quot;]/div[@class=&quot;col-4 col-lg-2&quot;]/a[@class=&quot;text-dark&quot;]/div[@class=&quot;card border-0 position-relative&quot;]/div[@class=&quot;card-body px-0&quot;]/h6[@class=&quot;card-title text&quot;]</value>
+      <webElementGuid>b1ea2305-ae36-4283-b70c-63e002257747</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='myCarousel1']/div/div/div[2]/a/div/div/h6</value>
+      <webElementGuid>65825644-5e20-4f90-9393-18b377f70175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[1]/following::h6[1]</value>
+      <webElementGuid>586ab9ab-f03e-46a9-8c77-6bf2f4ecd469</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='฿300.00'])[1]/following::h6[1]</value>
+      <webElementGuid>ddb25f77-a55c-4d7d-8714-409fc583d2d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[2]/preceding::h6[1]</value>
+      <webElementGuid>be09d2b6-609c-472c-b6c4-162ecf501781</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='book 9'])[1]/preceding::h6[1]</value>
+      <webElementGuid>2994d127-b63a-4366-a1a8-f5c14498ec53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Northern Italy: Emilia-Romagna']/parent::*</value>
+      <webElementGuid>8cd5a374-0c5f-4a86-9d18-876a6b296967</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a/div/div/h6</value>
+      <webElementGuid>5ee6868b-dfbe-44d9-a90d-25fd8a8598f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Northern Italy: Emilia-Romagna' or . = 'Northern Italy: Emilia-Romagna')]</value>
+      <webElementGuid>e3fe249e-8d4c-4b68-9acc-d19f0895280e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

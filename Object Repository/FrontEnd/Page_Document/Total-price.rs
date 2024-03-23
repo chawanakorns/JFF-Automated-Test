@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Total-price</name>
+   <tag></tag>
+   <elementGuidId>9f4a3c77-7ac3-4393-8549-35040d93b8d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.sum</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/following::p[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>87e13c26-7fc3-49ac-83fe-4707ba9f38a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sum</value>
+      <webElementGuid>37c42c00-559b-44ab-b896-490d3613c28f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>฿350.00 </value>
+      <webElementGuid>c52d1506-7356-4870-b75e-b36047422a02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container-fluid row main&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 box-left&quot;]/div[@class=&quot;book-item&quot;]/table[@class=&quot;custom-table&quot;]/tbody[@class=&quot;item-frame&quot;]/tr[1]/td[5]/p[@class=&quot;sum&quot;]</value>
+      <webElementGuid>c7c30f67-e868-40fe-b04b-fa3bfe0a8dfe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/following::p[2]</value>
+      <webElementGuid>41f2cbe7-03f2-4b07-9cf1-2f59f6dfb9f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::p[2]</value>
+      <webElementGuid>7d6b3f29-776b-4fec-8c62-175866599218</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter Promotion code'])[1]/preceding::p[1]</value>
+      <webElementGuid>f698faaa-920b-4f68-b5db-bf1abf34670c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply'])[1]/preceding::p[1]</value>
+      <webElementGuid>ad7c3276-6863-4f8e-beae-cc734a96f88b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/p[2]</value>
+      <webElementGuid>d41a9a94-57a8-49b1-9e13-e4f0c21037f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '฿350.00 ' or . = '฿350.00 ')]</value>
+      <webElementGuid>ab2ec71b-6769-4bc1-b779-31dd8befad3b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

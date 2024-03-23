@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nonFictionBook</name>
+   <tag></tag>
+   <elementGuidId>887391cb-b6f8-44d4-9ff0-365a92f9c5d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h6.card-title.text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//html/body/div/div[3]/div[2]/div/div/div[1]/div[1]/a/div/h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>4264721a-4244-4984-ac1e-272ea2694bdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title text</value>
+      <webElementGuid>303504b7-e372-4438-8c2c-41f88960c73b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Supercommunicators: How to Unlock the Secret </value>
+      <webElementGuid>27adb2c0-c44c-46ba-a5fe-7b805b517ba6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container-fluid row main&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9&quot;]/div[@class=&quot;box-right&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row book-row d-flex justify-content-left flex-wrap&quot;]/div[@class=&quot;col-lg-3 col-sm-5 position-relative book-row&quot;]/a[@class=&quot;text-dark&quot;]/div[@class=&quot;card-body px-0&quot;]/h6[@class=&quot;card-title text&quot;]</value>
+      <webElementGuid>f1632890-aba6-4ba3-bdbb-3783812f4abf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Poetry'])[2]/following::h6[1]</value>
+      <webElementGuid>0678a0c3-00ac-43ee-8689-9e25842d0836</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='฿759.00'])[1]/preceding::h6[1]</value>
+      <webElementGuid>adb95ae8-2e9f-4bac-9f8e-e571f1f28671</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[1]/preceding::h6[1]</value>
+      <webElementGuid>a8d06e52-6c7d-4f19-9190-7f7c014fe5f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Supercommunicators: How to Unlock the Secret']/parent::*</value>
+      <webElementGuid>e1dc9ef5-7f09-47c9-b636-3f0b1140f19e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/h6</value>
+      <webElementGuid>473b8162-6b76-4b34-9b4e-509b178ff1b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Supercommunicators: How to Unlock the Secret ' or . = 'Supercommunicators: How to Unlock the Secret ')]</value>
+      <webElementGuid>327591fe-2a14-48a8-a49f-49e7bfaa0d94</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

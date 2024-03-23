@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>novelBook</name>
+   <tag></tag>
+   <elementGuidId>9a0b91de-7e73-44f3-8c33-c5f4eabcd59b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h6.card-title.text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//html/body/div/div[3]/div[2]/div/div/div[1]/div[1]/a/div/h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>a7f61a16-8a2c-4328-8731-4c6e2d6527c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title text</value>
+      <webElementGuid>c24aa35b-b4d6-4c08-82ad-69a677d1dbae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I Love You So Much It's Killing Us Both</value>
+      <webElementGuid>bc4a1169-bdb1-41ff-a31f-5a037916dc30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container-fluid row main&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9&quot;]/div[@class=&quot;box-right&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row book-row d-flex justify-content-left flex-wrap&quot;]/div[@class=&quot;col-lg-3 col-sm-5 position-relative book-row&quot;]/a[@class=&quot;text-dark&quot;]/div[@class=&quot;card-body px-0&quot;]/h6[@class=&quot;card-title text&quot;]</value>
+      <webElementGuid>5a1de2a9-70bd-4d02-a6de-07569c62875b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Poetry'])[2]/following::h6[1]</value>
+      <webElementGuid>01ade94d-7ba6-4ad3-bd53-6eecc4b6eaf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[1]/preceding::h6[1]</value>
+      <webElementGuid>6e411c7b-64de-4385-955c-e2832f7014da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/h6</value>
+      <webElementGuid>884be110-1361-4ef8-bf3a-b074b9ac89b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = concat(&quot;I Love You So Much It&quot; , &quot;'&quot; , &quot;s Killing Us Both&quot;) or . = concat(&quot;I Love You So Much It&quot; , &quot;'&quot; , &quot;s Killing Us Both&quot;))]</value>
+      <webElementGuid>afacbfeb-2ec8-45ce-b599-7903e85f0a9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

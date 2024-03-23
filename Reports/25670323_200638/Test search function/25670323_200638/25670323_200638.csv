@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test search function,Chrome 122.0.0.0,,,23-03-2024 20:06:51,23-03-2024 20:07:05,13.746s,PASSED
+,,,,,,,
+Test Cases/TC2,Chrome 122.0.0.0,,,23-03-2024 20:06:51,23-03-2024 20:06:58,6.327s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,23-03-2024 20:06:52,23-03-2024 20:06:54,1.959s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/"")",Chrome 122.0.0.0,,,23-03-2024 20:06:54,23-03-2024 20:06:55,1.516s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,23-03-2024 20:06:55,23-03-2024 20:06:55,0.150s,PASSED
+"setText(findTestObject(""Object Repository/Search/searchbar""), typesearch)",Chrome 122.0.0.0,,,23-03-2024 20:06:55,23-03-2024 20:06:56,0.824s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/searchbar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 20:06:56,23-03-2024 20:06:57,0.980s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search/bookname""), bookname)",Chrome 122.0.0.0,,,23-03-2024 20:06:57,23-03-2024 20:06:57,0.328s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,23-03-2024 20:06:57,23-03-2024 20:06:58,0.155s,PASSED
+,,,,,,,
+Test Cases/TC2,Chrome 122.0.0.0,,,23-03-2024 20:06:58,23-03-2024 20:07:01,3.605s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,23-03-2024 20:06:58,23-03-2024 20:06:59,0.823s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/"")",Chrome 122.0.0.0,,,23-03-2024 20:06:59,23-03-2024 20:06:59,0.834s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,23-03-2024 20:06:59,23-03-2024 20:07:00,0.135s,PASSED
+"setText(findTestObject(""Object Repository/Search/searchbar""), typesearch)",Chrome 122.0.0.0,,,23-03-2024 20:07:00,23-03-2024 20:07:00,0.671s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/searchbar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 20:07:00,23-03-2024 20:07:01,0.676s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search/bookname""), bookname)",Chrome 122.0.0.0,,,23-03-2024 20:07:01,23-03-2024 20:07:01,0.318s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,23-03-2024 20:07:01,23-03-2024 20:07:01,0.124s,PASSED
+,,,,,,,
+Test Cases/TC2,Chrome 122.0.0.0,,,23-03-2024 20:07:01,23-03-2024 20:07:05,3.456s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,23-03-2024 20:07:01,23-03-2024 20:07:02,0.820s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/"")",Chrome 122.0.0.0,,,23-03-2024 20:07:02,23-03-2024 20:07:03,0.746s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,23-03-2024 20:07:03,23-03-2024 20:07:03,0.129s,PASSED
+"setText(findTestObject(""Object Repository/Search/searchbar""), typesearch)",Chrome 122.0.0.0,,,23-03-2024 20:07:03,23-03-2024 20:07:04,0.669s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/searchbar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 20:07:04,23-03-2024 20:07:04,0.509s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search/bookname""), bookname)",Chrome 122.0.0.0,,,23-03-2024 20:07:04,23-03-2024 20:07:05,0.428s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,23-03-2024 20:07:05,23-03-2024 20:07:05,0.139s,PASSED
