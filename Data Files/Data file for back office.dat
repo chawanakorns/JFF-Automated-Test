@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Product Data</name>
+   <name>Data file for back office</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
@@ -9,7 +9,7 @@
    <dataFileGUID>baff4a47-2862-4528-b3c8-99cb2fb6e933</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>1 book+1 7 A0001 5 300 100.00+%E0%B8%BF 10.00+%E0%B8%BF</data>
+   <data>1 book+1 7 A0001 5 300 100.00+%E0%B8%BF 10.00+%E0%B8%BF 49 45 Fiction Non-Fiction</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>productId</name>
@@ -48,6 +48,26 @@
    <internalDataColumns>
       <columnIndex>7</columnIndex>
       <name>productPricePromotion</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>orderId1</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>9</columnIndex>
+      <name>orderId2</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>10</columnIndex>
+      <name>categoryName1</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>11</columnIndex>
+      <name>categoryName2</name>
       <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
