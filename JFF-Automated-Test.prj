@@ -3,7 +3,11 @@
    <description></description>
    <name>JFF-Automated-Test</name>
    <tag></tag>
+<<<<<<< HEAD
    <UUID>68f1a0fd-521a-4c13-9284-df344cc5aa97</UUID>
+=======
+   <UUID>4ad27048-5a3d-4439-a15e-48882c2cb824</UUID>
+>>>>>>> branch 'main' of https://github.com/chawanakorns/JFF-Automated-Test
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>

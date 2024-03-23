@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Order_TC1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa7070fa-3805-4c48-940a-ab9344f8bffe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3fa42457-1536-422f-b1ae-a72068e614ec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c72a6e4a-7a73-4575-834e-16ba47daa9f3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3fa42457-1536-422f-b1ae-a72068e614ec</id>
+      <masked>false</masked>
+      <name>order_id1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c72a6e4a-7a73-4575-834e-16ba47daa9f3</id>
+      <masked>false</masked>
+      <name>order_id2</name>
+   </variable>
+</TestCaseEntity>

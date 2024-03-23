@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,Chrome 122.0.0.0,,,23-03-2024 23:58:34,23-03-2024 23:59:10,36.196s,PASSED
+,,,,,,,
+Test Cases/BackOffice/Category_TC1,Chrome 122.0.0.0,,,23-03-2024 23:58:34,23-03-2024 23:58:44,10.007s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,23-03-2024 23:58:34,23-03-2024 23:58:36,2.100s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/back-office-category"")",Chrome 122.0.0.0,,,23-03-2024 23:58:36,23-03-2024 23:58:38,1.800s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/edit_button""))",Chrome 122.0.0.0,,,23-03-2024 23:58:38,23-03-2024 23:58:39,0.836s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/add_button""))",Chrome 122.0.0.0,,,23-03-2024 23:58:39,23-03-2024 23:58:40,0.707s,PASSED
+"verifyElementText(findTestObject(""Back-Office/Page_Category Management Page/newcategory_name""), ""<New Category>"")",Chrome 122.0.0.0,,,23-03-2024 23:58:40,23-03-2024 23:58:40,0.459s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/edit_button""))",Chrome 122.0.0.0,,,23-03-2024 23:58:40,23-03-2024 23:58:41,0.346s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/tickbox""))",Chrome 122.0.0.0,,,23-03-2024 23:58:41,23-03-2024 23:58:41,0.481s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/delete_button""))",Chrome 122.0.0.0,,,23-03-2024 23:58:41,23-03-2024 23:58:42,0.554s,PASSED
+"setText(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/search_bar""), ""Fiction"")",Chrome 122.0.0.0,,,23-03-2024 23:58:42,23-03-2024 23:58:43,0.843s,PASSED
+"sendKeys(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/search_bar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 23:58:43,23-03-2024 23:58:43,0.506s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/searchname1""), category_name1)",Chrome 122.0.0.0,,,23-03-2024 23:58:43,23-03-2024 23:58:43,0.434s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/searchname2""), category_name2)",Chrome 122.0.0.0,,,23-03-2024 23:58:43,23-03-2024 23:58:44,0.316s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,23-03-2024 23:58:44,23-03-2024 23:58:44,0.232s,PASSED
+,,,,,,,
+Test Cases/BackOffice/Product_TC1,Chrome 122.0.0.0,,,23-03-2024 23:58:44,23-03-2024 23:59:04,19.770s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,23-03-2024 23:58:44,23-03-2024 23:58:45,0.987s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/back-office-product"")",Chrome 122.0.0.0,,,23-03-2024 23:58:45,23-03-2024 23:58:46,0.586s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/product_id_cell""), product_id)",Chrome 122.0.0.0,,,23-03-2024 23:58:46,23-03-2024 23:58:47,0.686s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/product_name_cell""), product_name)",Chrome 122.0.0.0,,,23-03-2024 23:58:47,23-03-2024 23:58:47,0.321s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/category_id""), category_id)",Chrome 122.0.0.0,,,23-03-2024 23:58:47,23-03-2024 23:58:47,0.307s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/product_image_id_cell""), product_image_id)",Chrome 122.0.0.0,,,23-03-2024 23:58:47,23-03-2024 23:58:48,0.311s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/stock_cell""), stock)",Chrome 122.0.0.0,,,23-03-2024 23:58:48,23-03-2024 23:58:48,0.319s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/salecount_cell""), salecount)",Chrome 122.0.0.0,,,23-03-2024 23:58:48,23-03-2024 23:58:48,0.297s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/product_price_cell""), product_price)",Chrome 122.0.0.0,,,23-03-2024 23:58:48,23-03-2024 23:58:49,0.300s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/product_price_promotion_cell""), product_price_promotion)",Chrome 122.0.0.0,,,23-03-2024 23:58:49,23-03-2024 23:58:49,0.312s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/button_Edit""))",Chrome 122.0.0.0,,,23-03-2024 23:58:49,23-03-2024 23:58:49,0.402s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/button_Add""))",Chrome 122.0.0.0,,,23-03-2024 23:58:49,23-03-2024 23:58:50,0.593s,PASSED
+"setText(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/input_Restock_page-number""), ""6"")",Chrome 122.0.0.0,,,23-03-2024 23:58:50,23-03-2024 23:58:51,0.789s,PASSED
+"sendKeys(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/input_Restock_page-number""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 23:58:51,23-03-2024 23:58:51,0.577s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/back-office-product?page=6"")",Chrome 122.0.0.0,,,23-03-2024 23:58:51,23-03-2024 23:58:51,0.190s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/td_New Product""))",Chrome 122.0.0.0,,,23-03-2024 23:58:51,23-03-2024 23:58:54,2.635s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/button_Edit""))",Chrome 122.0.0.0,,,23-03-2024 23:58:54,23-03-2024 23:58:57,2.463s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/input_checkbox""))",Chrome 122.0.0.0,,,23-03-2024 23:58:57,23-03-2024 23:58:59,2.606s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/button_Delete""))",Chrome 122.0.0.0,,,23-03-2024 23:58:59,23-03-2024 23:59:02,2.702s,PASSED
+"setText(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/input_Submit_search""), ""new product"")",Chrome 122.0.0.0,,,23-03-2024 23:59:02,23-03-2024 23:59:03,0.793s,PASSED
+"sendKeys(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/input_Submit_search""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 23:59:03,23-03-2024 23:59:03,0.401s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Product Management Page/td_No items available""))",Chrome 122.0.0.0,,,23-03-2024 23:59:03,23-03-2024 23:59:04,0.648s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,23-03-2024 23:59:04,23-03-2024 23:59:04,0.234s,PASSED
+,,,,,,,
+Test Cases/BackOffice/Order_TC1,Chrome 122.0.0.0,,,23-03-2024 23:59:04,23-03-2024 23:59:10,5.810s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,23-03-2024 23:59:04,23-03-2024 23:59:05,0.954s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/back-office-order"")",Chrome 122.0.0.0,,,23-03-2024 23:59:05,23-03-2024 23:59:05,0.237s,PASSED
+"setText(findTestObject(""Object Repository/Back-Office/Page_Order Management Page/search_bar""), ""49"")",Chrome 122.0.0.0,,,23-03-2024 23:59:05,23-03-2024 23:59:07,1.564s,PASSED
+"sendKeys(findTestObject(""Object Repository/Back-Office/Page_Order Management Page/search_bar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 23:59:07,23-03-2024 23:59:07,0.495s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Order Management Page/order_id_1""), order_id1)",Chrome 122.0.0.0,,,23-03-2024 23:59:07,23-03-2024 23:59:08,0.440s,PASSED
+"setText(findTestObject(""Object Repository/Back-Office/Page_Order Management Page/search_bar""), """")",Chrome 122.0.0.0,,,23-03-2024 23:59:08,23-03-2024 23:59:08,0.642s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Order Management Page/search_button""))",Chrome 122.0.0.0,,,23-03-2024 23:59:08,23-03-2024 23:59:09,0.534s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Order Management Page/order_id_2""), order_id2)",Chrome 122.0.0.0,,,23-03-2024 23:59:09,23-03-2024 23:59:09,0.434s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,23-03-2024 23:59:09,23-03-2024 23:59:10,0.382s,PASSED

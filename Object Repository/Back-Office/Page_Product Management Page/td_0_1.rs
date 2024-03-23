@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_0_1</name>
+   <tag></tag>
+   <elementGuidId>1291dd94-cfbe-49c9-89f0-86f1f0e163c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='editForm']/table/tbody/tr[18]/td[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(18) > td:nth-of-type(7)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>3460df0f-8827-41a4-aaf1-db1075db7497</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                      0
+                    </value>
+      <webElementGuid>a6a94bb8-44bc-4fa6-9f49-9d04ae8e20c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;editForm&quot;)/table[@class=&quot;inventory-table&quot;]/tbody[1]/tr[18]/td[7]</value>
+      <webElementGuid>75e46332-ab39-4299-82a4-47af31cdcce7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='editForm']/table/tbody/tr[18]/td[7]</value>
+      <webElementGuid>95dcf5ea-9987-42ad-89c6-728005231251</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Product'])[1]/following::td[4]</value>
+      <webElementGuid>0cb04063-0cd3-460e-91c5-c161fab824da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Restock'])[17]/following::td[7]</value>
+      <webElementGuid>b898cd86-032c-4806-b71c-b88e85886776</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Restock'])[18]/preceding::td[3]</value>
+      <webElementGuid>c2da2ba3-d438-4621-8289-2763a7859bbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Page 6 out of 6'])[2]/preceding::td[4]</value>
+      <webElementGuid>740b7508-1e91-4e3f-bea6-b4159937069d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[18]/td[7]</value>
+      <webElementGuid>902ae05f-a479-43ae-b0ed-bbe80c18a1fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+                      0
+                    ' or . = '
+                      0
+                    ')]</value>
+      <webElementGuid>00b1e5dc-025a-478b-aeee-0e5cbb9a29c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

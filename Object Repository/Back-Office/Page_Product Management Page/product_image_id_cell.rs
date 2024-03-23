@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>product_image_id_cell</name>
+   <tag></tag>
+   <elementGuidId>99ee2862-129b-41d5-a906-49977d3bb165</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='editForm']/table/tbody/tr/td[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tbody > tr > td:nth-of-type(5)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>67e9b82a-bd79-4cfd-ae00-8b8605510efa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                        A0001
+                    </value>
+      <webElementGuid>6b08766b-b4fd-4b0c-b1b1-fdcb9c72226c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;editForm&quot;)/table[@class=&quot;inventory-table&quot;]/tbody[1]/tr[1]/td[5]</value>
+      <webElementGuid>d0366543-831f-4ee4-8f01-3dc9dc29cf37</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='editForm']/table/tbody/tr/td[5]</value>
+      <webElementGuid>cb89fa8e-9944-4fa7-aa28-e7729226b194</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='book 1'])[1]/following::td[2]</value>
+      <webElementGuid>3482d82d-fcd9-420e-a219-adc5d94eb827</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[5]</value>
+      <webElementGuid>428df968-72d7-4d3a-97b3-f8c5d8644108</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Restock'])[1]/preceding::td[5]</value>
+      <webElementGuid>da8c3262-75a8-4726-9f0a-256fa7cda4f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='book 2'])[1]/preceding::td[8]</value>
+      <webElementGuid>0012c91d-ba4e-4bc0-aa5a-94eaab04ae06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='A0001']/parent::*</value>
+      <webElementGuid>4da53edb-286d-4b25-af5c-5a0ac74211f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody/tr/td[5]</value>
+      <webElementGuid>f5ece139-5506-4c98-94c4-ec8cd3823600</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+                        A0001
+                    ' or . = '
+                        A0001
+                    ')]</value>
+      <webElementGuid>11658a67-c7f9-4559-91c4-67b6e4c7e116</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
