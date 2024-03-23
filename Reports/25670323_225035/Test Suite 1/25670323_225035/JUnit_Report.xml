@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="32.941" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite 1" tests="2" failures="0" errors="0" time="32.941" skipped="0" timestamp="23-03-2024T22:50:47" hostname="User - DESKTOP-HKH22J6" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Chiang Mai University\\Year 2\\TERM 2\\DEV OPS\\JFF-Automated-Test\\Reports\\25670323_225035\\Test Suite 1\\25670323_225035"/>
+         <property name="logFiles" value="D:\\Chiang Mai University\\Year 2\\TERM 2\\DEV OPS\\JFF-Automated-Test\\Reports\\25670323_225035\\Test Suite 1\\25670323_225035\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-HKH22J6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="e588bfcb7ca4b7caefb58eb30b26669e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BackOffice/Category_TC1" time="11.395" classname="Test Cases/BackOffice/Category_TC1" status="PASSED">
+         <system-out><![CDATA[23-03-2024T22:50:47 - [TEST_CASE][PASSED] - Test Cases/BackOffice/Category_TC1: Test Cases/BackOffice/Category_TC1
+
+23-03-2024T22:50:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-03-2024T22:50:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-03-2024T22:50:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-03-2024T22:50:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-03-2024T22:50:51 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/back-office-category"): Navigate to 'http://18.140.98.114:8080/back-office-category' successfully
+
+23-03-2024T22:50:52 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/back-office-category' successfully
+
+23-03-2024T22:50:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Back-Office/Page_Category Management Page/edit_button")): Object: 'Object Repository/Back-Office/Page_Category Management Page/edit_button' is clicked on
+
+23-03-2024T22:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Back-Office/Page_Category Management Page/edit_button' is clicked on
+
+23-03-2024T22:50:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Back-Office/Page_Category Management Page/add_button")): Object: 'Object Repository/Back-Office/Page_Category Management Page/add_button' is clicked on
+
+23-03-2024T22:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Back-Office/Page_Category Management Page/add_button' is clicked on
+
+23-03-2024T22:50:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Back-Office/Page_Category Management Page/newcategory_name"), "<New Category>"): Actual text and expected text of test object 'Object Repository/Back-Office/Page_Category Management Page/newcategory_name' are matched.
+
+23-03-2024T22:50:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Back-Office/Page_Category Management Page/newcategory_name' are matched.
+
+23-03-2024T22:50:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Back-Office/Page_Category Management Page/edit_button")): Object: 'Object Repository/Back-Office/Page_Category Management Page/edit_button' is clicked on
+
+23-03-2024T22:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Back-Office/Page_Category Management Page/edit_button' is clicked on
+
+23-03-2024T22:50:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Back-Office/Page_Category Management Page/tickbox")): Object: 'Object Repository/Back-Office/Page_Category Management Page/tickbox' is clicked on
+
+23-03-2024T22:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Back-Office/Page_Category Management Page/tickbox' is clicked on
+
+23-03-2024T22:50:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Back-Office/Page_Category Management Page/delete_button")): Object: 'Object Repository/Back-Office/Page_Category Management Page/delete_button' is clicked on
+
+23-03-2024T22:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Back-Office/Page_Category Management Page/delete_button' is clicked on
+
+23-03-2024T22:50:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Back-Office/Page_Category Management Page/search_bar"), "Fiction"): Text 'Fiction' is set on object 'Object Repository/Back-Office/Page_Category Management Page/search_bar'
+
+23-03-2024T22:50:57 - [MESSAGE][PASSED] - Text 'Fiction' is set on object 'Object Repository/Back-Office/Page_Category Management Page/search_bar'
+
+23-03-2024T22:50:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Back-Office/Page_Category Management Page/search_bar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Back-Office/Page_Category Management Page/search_bar'
+
+23-03-2024T22:50:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Back-Office/Page_Category Management Page/search_bar'
+
+23-03-2024T22:50:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Back-Office/Page_Category Management Page/searchname1"), category_name1): Actual text and expected text of test object 'Object Repository/Back-Office/Page_Category Management Page/searchname1' are matched.
+
+23-03-2024T22:50:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Back-Office/Page_Category Management Page/searchname1' are matched.
+
+23-03-2024T22:50:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Back-Office/Page_Category Management Page/searchname2"), category_name2): Actual text and expected text of test object 'Object Repository/Back-Office/Page_Category Management Page/searchname2' are matched.
+
+23-03-2024T22:50:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Back-Office/Page_Category Management Page/searchname2' are matched.
+
+23-03-2024T22:50:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-03-2024T22:50:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BackOffice/Product_TC1" time="20.909" classname="Test Cases/BackOffice/Product_TC1" status="PASSED">
+         <system-out><![CDATA[23-03-2024T22:50:59 - [TEST_CASE][PASSED] - Test Cases/BackOffice/Product_TC1: Test Cases/BackOffice/Product_TC1
+
+23-03-2024T22:50:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-03-2024T22:50:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-03-2024T22:50:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-03-2024T22:51:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-03-2024T22:51:00 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/back-office-product"): Navigate to 'http://18.140.98.114:8080/back-office-product' successfully
+
+23-03-2024T22:51:01 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/back-office-product' successfully
+
+23-03-2024T22:51:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Back-Office/Page_Product Management Page/product_id_cell"), "1"): Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/product_id_cell' are matched.
+
+23-03-2024T22:51:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/product_id_cell' are matched.
+
+23-03-2024T22:51:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Back-Office/Page_Product Management Page/product_name_cell"), "book 1"): Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/product_name_cell' are matched.
+
+23-03-2024T22:51:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/product_name_cell' are matched.
+
+23-03-2024T22:51:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Back-Office/Page_Product Management Page/category_id"), "7"): Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/category_id' are matched.
+
+23-03-2024T22:51:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/category_id' are matched.
+
+23-03-2024T22:51:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Back-Office/Page_Product Management Page/product_image_id_cell"), "A0001"): Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/product_image_id_cell' are matched.
+
+23-03-2024T22:51:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/product_image_id_cell' are matched.
+
+23-03-2024T22:51:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Back-Office/Page_Product Management Page/stock_cell"), "5"): Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/stock_cell' are matched.
+
+23-03-2024T22:51:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/stock_cell' are matched.
+
+23-03-2024T22:51:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Back-Office/Page_Product Management Page/salecount_cell"), "300"): Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/salecount_cell' are matched.
+
+23-03-2024T22:51:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/salecount_cell' are matched.
+
+23-03-2024T22:51:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Back-Office/Page_Product Management Page/product_price_cell"), "100.00 ฿"): Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/product_price_cell' are matched.
+
+23-03-2024T22:51:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/product_price_cell' are matched.
+
+23-03-2024T22:51:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Back-Office/Page_Product Management Page/product_price_promotion_cell"), "10.00 ฿"): Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/product_price_promotion_cell' are matched.
+
+23-03-2024T22:51:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Back-Office/Page_Product Management Page/product_price_promotion_cell' are matched.
+
+23-03-2024T22:51:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Back-Office/Page_Product Management Page/button_Edit")): Object: 'Object Repository/Back-Office/Page_Product Management Page/button_Edit' is clicked on
+
+23-03-2024T22:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Back-Office/Page_Product Management Page/button_Edit' is clicked on
+
+23-03-2024T22:51:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Back-Office/Page_Product Management Page/button_Add")): Object: 'Object Repository/Back-Office/Page_Product Management Page/button_Add' is clicked on
+
+23-03-2024T22:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Back-Office/Page_Product Management Page/button_Add' is clicked on
+
+23-03-2024T22:51:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Back-Office/Page_Product Management Page/input_Restock_page-number"), "6"): Text '6' is set on object 'Object Repository/Back-Office/Page_Product Management Page/input_Restock_page-number'
+
+23-03-2024T22:51:06 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/Back-Office/Page_Product Management Page/input_Restock_page-number'
+
+23-03-2024T22:51:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Back-Office/Page_Product Management Page/input_Restock_page-number"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Back-Office/Page_Product Management Page/input_Restock_page-number'
+
+23-03-2024T22:51:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Back-Office/Page_Product Management Page/input_Restock_page-number'
+
+23-03-2024T22:51:07 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/back-office-product?page=6"): Navigate to 'http://18.140.98.114:8080/back-office-product?page=6' successfully
+
+23-03-2024T22:51:07 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/back-office-product?page=6' successfully
+
+23-03-2024T22:51:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Back-Office/Page_Product Management Page/td_New Product")): Object: 'Object Repository/Back-Office/Page_Product Management Page/td_New Product' is clicked on
+
+23-03-2024T22:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Back-Office/Page_Product Management Page/td_New Product' is clicked on
+
+23-03-2024T22:51:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Back-Office/Page_Product Management Page/button_Edit")): Object: 'Object Repository/Back-Office/Page_Product Management Page/button_Edit' is clicked on
+
+23-03-2024T22:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Back-Office/Page_Product Management Page/button_Edit' is clicked on
+
+23-03-2024T22:51:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Back-Office/Page_Product Management Page/input_checkbox")): Object: 'Object Repository/Back-Office/Page_Product Management Page/input_checkbox' is clicked on
+
+23-03-2024T22:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Back-Office/Page_Product Management Page/input_checkbox' is clicked on
+
+23-03-2024T22:51:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Back-Office/Page_Product Management Page/button_Delete")): Object: 'Object Repository/Back-Office/Page_Product Management Page/button_Delete' is clicked on
+
+23-03-2024T22:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Back-Office/Page_Product Management Page/button_Delete' is clicked on
+
+23-03-2024T22:51:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Back-Office/Page_Product Management Page/input_Submit_search"), "new product"): Text 'new product' is set on object 'Object Repository/Back-Office/Page_Product Management Page/input_Submit_search'
+
+23-03-2024T22:51:18 - [MESSAGE][PASSED] - Text 'new product' is set on object 'Object Repository/Back-Office/Page_Product Management Page/input_Submit_search'
+
+23-03-2024T22:51:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Back-Office/Page_Product Management Page/input_Submit_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Back-Office/Page_Product Management Page/input_Submit_search'
+
+23-03-2024T22:51:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Back-Office/Page_Product Management Page/input_Submit_search'
+
+23-03-2024T22:51:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Back-Office/Page_Product Management Page/td_No items available")): Object: 'Object Repository/Back-Office/Page_Product Management Page/td_No items available' is clicked on
+
+23-03-2024T22:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Back-Office/Page_Product Management Page/td_No items available' is clicked on
+
+23-03-2024T22:51:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-03-2024T22:51:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-03-2024T22:50:47 - [TEST_SUITE][PASSED] - Test Suite 1: Test Cases/BackOffice/Product_TC1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

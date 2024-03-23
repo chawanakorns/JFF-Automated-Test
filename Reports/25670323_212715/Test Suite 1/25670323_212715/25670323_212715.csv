@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,Chrome 122.0.0.0,,,23-03-2024 21:27:24,23-03-2024 21:27:34,10.499s,PASSED
+,,,,,,,
+Test Cases/BackOffice/Category_TC1,Chrome 122.0.0.0,,,23-03-2024 21:27:24,23-03-2024 21:27:34,10.215s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,23-03-2024 21:27:24,23-03-2024 21:27:27,2.316s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/back-office-category"")",Chrome 122.0.0.0,,,23-03-2024 21:27:27,23-03-2024 21:27:28,1.582s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/edit_button""))",Chrome 122.0.0.0,,,23-03-2024 21:27:28,23-03-2024 21:27:29,0.960s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/add_button""))",Chrome 122.0.0.0,,,23-03-2024 21:27:29,23-03-2024 21:27:30,0.734s,PASSED
+"verifyElementText(findTestObject(""Back-Office/Page_Category Management Page/newcategory_name""), ""<New Category>"")",Chrome 122.0.0.0,,,23-03-2024 21:27:30,23-03-2024 21:27:30,0.481s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/edit_button""))",Chrome 122.0.0.0,,,23-03-2024 21:27:30,23-03-2024 21:27:31,0.367s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/tickbox""))",Chrome 122.0.0.0,,,23-03-2024 21:27:31,23-03-2024 21:27:31,0.477s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/delete_button""))",Chrome 122.0.0.0,,,23-03-2024 21:27:31,23-03-2024 21:27:32,0.550s,PASSED
+"setText(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/search_bar""), ""Fiction"")",Chrome 122.0.0.0,,,23-03-2024 21:27:32,23-03-2024 21:27:33,0.857s,PASSED
+"sendKeys(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/search_bar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 21:27:33,23-03-2024 21:27:33,0.502s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/searchname1""), category_name1)",Chrome 122.0.0.0,,,23-03-2024 21:27:33,23-03-2024 21:27:34,0.420s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/searchname2""), category_name2)",Chrome 122.0.0.0,,,23-03-2024 21:27:34,23-03-2024 21:27:34,0.328s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,23-03-2024 21:27:34,23-03-2024 21:27:34,0.224s,PASSED

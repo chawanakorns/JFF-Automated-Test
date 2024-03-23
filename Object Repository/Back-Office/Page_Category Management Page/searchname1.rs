@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searchname1</name>
+   <tag></tag>
+   <elementGuidId>df90ab22-9cfa-437a-96f2-7035c828310b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody[@id='tableBody']/tr/td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.category-name-column</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>b9d7f5a0-fb38-454c-bcb4-56ab8ef21b89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>category-name-column</value>
+      <webElementGuid>c9c10c95-72d5-4fed-aefe-80dce5220ede</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                  Fiction
+                  
+                </value>
+      <webElementGuid>72f47417-fcec-426a-abe6-187aea16fcda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tableBody&quot;)/tr[1]/td[@class=&quot;category-name-column&quot;]</value>
+      <webElementGuid>35d92a2a-b1d1-46a3-9264-22d4a4ee1041</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='tableBody']/tr/td[3]</value>
+      <webElementGuid>09c3d3e0-7093-403a-8d69-f55613a5e21c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View lists'])[1]/following::td[3]</value>
+      <webElementGuid>5350fc39-3719-4d2c-adda-1d0597376179</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Stock'])[1]/following::td[4]</value>
+      <webElementGuid>19bab2ce-50b5-43c0-9148-40e1190a4300</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non-Fiction'])[1]/preceding::td[5]</value>
+      <webElementGuid>a0b7761a-9757-4e61-8b14-49e7a627ad85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody/tr/td[3]</value>
+      <webElementGuid>dbe54aaa-17e4-4c22-8663-4492ac906d0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+                  Fiction
+                  
+                ' or . = '
+                  Fiction
+                  
+                ')]</value>
+      <webElementGuid>11b58565-14c7-4c8d-b2b2-23d93741dd17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

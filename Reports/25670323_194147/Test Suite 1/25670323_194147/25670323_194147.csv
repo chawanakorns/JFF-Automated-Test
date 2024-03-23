@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,Chrome 122.0.0.0,,,23-03-2024 19:41:57,23-03-2024 19:42:18,20.783s,FAILED
+,,,,,,,
+Test Cases/BackOffice/Category_TC1,Chrome 122.0.0.0,,,23-03-2024 19:41:57,23-03-2024 19:42:09,11.922s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,23-03-2024 19:41:58,23-03-2024 19:42:00,2.695s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/back-office-homepage"")",Chrome 122.0.0.0,,,23-03-2024 19:42:00,23-03-2024 19:42:03,2.291s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Back Office Homepage/i_Home_fas fa fa-th-large""))",Chrome 122.0.0.0,,,23-03-2024 19:42:03,23-03-2024 19:42:03,0.754s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/back-office-category"")",Chrome 122.0.0.0,,,23-03-2024 19:42:03,23-03-2024 19:42:04,0.203s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/button_Edit""))",Chrome 122.0.0.0,,,23-03-2024 19:42:04,23-03-2024 19:42:04,0.587s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/button_Add""))",Chrome 122.0.0.0,,,23-03-2024 19:42:04,23-03-2024 19:42:05,0.683s,PASSED
+"verifyElementText(findTestObject(""Back-Office/Page_Category Management Page/td_New Category""), ""<New Category>"")",Chrome 122.0.0.0,,,23-03-2024 19:42:05,23-03-2024 19:42:05,0.450s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/button_Edit""))",Chrome 122.0.0.0,,,23-03-2024 19:42:05,23-03-2024 19:42:06,0.343s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/input_View lists_selectedCategories""))",Chrome 122.0.0.0,,,23-03-2024 19:42:06,23-03-2024 19:42:06,0.545s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/button_Delete""))",Chrome 122.0.0.0,,,23-03-2024 19:42:06,23-03-2024 19:42:07,0.539s,PASSED
+"setText(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/search_bar""), ""Fiction"")",Chrome 122.0.0.0,,,23-03-2024 19:42:07,23-03-2024 19:42:08,0.833s,PASSED
+"sendKeys(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/search_bar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 19:42:08,23-03-2024 19:42:08,0.522s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/td_Fiction""), category_name)",Chrome 122.0.0.0,,,23-03-2024 19:42:08,23-03-2024 19:42:09,0.434s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/td_Non-Fiction""), category_name)",Chrome 122.0.0.0,,,23-03-2024 19:42:09,23-03-2024 19:42:09,0.567s,FAILED
+,,,,,,,
+Test Cases/BackOffice/Category_TC1,Chrome 122.0.0.0,,,23-03-2024 19:42:09,23-03-2024 19:42:18,8.511s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,23-03-2024 19:42:09,23-03-2024 19:42:10,1.191s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/back-office-homepage"")",Chrome 122.0.0.0,,,23-03-2024 19:42:10,23-03-2024 19:42:12,1.154s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Back Office Homepage/i_Home_fas fa fa-th-large""))",Chrome 122.0.0.0,,,23-03-2024 19:42:12,23-03-2024 19:42:12,0.591s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/back-office-category"")",Chrome 122.0.0.0,,,23-03-2024 19:42:12,23-03-2024 19:42:12,0.276s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/button_Edit""))",Chrome 122.0.0.0,,,23-03-2024 19:42:12,23-03-2024 19:42:13,0.574s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/button_Add""))",Chrome 122.0.0.0,,,23-03-2024 19:42:13,23-03-2024 19:42:14,0.756s,PASSED
+"verifyElementText(findTestObject(""Back-Office/Page_Category Management Page/td_New Category""), ""<New Category>"")",Chrome 122.0.0.0,,,23-03-2024 19:42:14,23-03-2024 19:42:14,0.428s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/button_Edit""))",Chrome 122.0.0.0,,,23-03-2024 19:42:14,23-03-2024 19:42:14,0.329s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/input_View lists_selectedCategories""))",Chrome 122.0.0.0,,,23-03-2024 19:42:14,23-03-2024 19:42:15,0.577s,PASSED
+"click(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/button_Delete""))",Chrome 122.0.0.0,,,23-03-2024 19:42:15,23-03-2024 19:42:16,0.460s,PASSED
+"setText(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/search_bar""), ""Fiction"")",Chrome 122.0.0.0,,,23-03-2024 19:42:16,23-03-2024 19:42:17,0.997s,PASSED
+"sendKeys(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/search_bar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,23-03-2024 19:42:17,23-03-2024 19:42:17,0.481s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Back-Office/Page_Category Management Page/td_Fiction""), category_name)",Chrome 122.0.0.0,,,23-03-2024 19:42:17,23-03-2024 19:42:18,0.665s,FAILED
