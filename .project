@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<< HEAD
 	<name>C%%Users%jj101%git%JFF-Automated-Test%JFF-Automated-Test.prj</name>
 	<comment></comment>
 	<projects>
@@ -64,25 +63,15 @@
 		</filter>
 		<filter>
 			<id>1711197612270</id>
-=======
-	<name>D%%Chiang Mai University%Year 2%TERM 2%DEV OPS%JFF-Automated-Test%JFF-Automated-Test.prj</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-	</natures>
-	<filteredResources>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
 		<filter>
-			<id>1711188620358</id>
+			<id>1711263048043</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -91,8 +80,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1711188620374</id>
->>>>>>> branch 'main' of https://github.com/chawanakorns/JFF-Automated-Test
+			<id>1711263048050</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

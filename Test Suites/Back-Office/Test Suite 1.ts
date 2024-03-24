@@ -25,22 +25,22 @@
       <testCaseId>Test Cases/BackOffice/Category_TC1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>d4454d67-5bf0-4920-aafb-c27ba5c729ee</id>
+         <id>9c2a711f-3458-48ef-8506-eb2d4fb37163</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Category Data</testDataId>
+         <testDataId>Data Files/Data file for back office</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>d4454d67-5bf0-4920-aafb-c27ba5c729ee</testDataLinkId>
+         <testDataLinkId>9c2a711f-3458-48ef-8506-eb2d4fb37163</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>categoryName1</value>
          <variableId>1e0ba29d-619d-4691-a7f9-d7df6c473d7a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d4454d67-5bf0-4920-aafb-c27ba5c729ee</testDataLinkId>
+         <testDataLinkId>9c2a711f-3458-48ef-8506-eb2d4fb37163</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>categoryName2</value>
          <variableId>b3cfa107-5cc7-44dc-a656-c15a030cd9d5</variableId>
@@ -58,7 +58,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Product Data</testDataId>
+         <testDataId>Data Files/Data file for back office</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -122,7 +122,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Order Data</testDataId>
+         <testDataId>Data Files/Data file for back office</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
