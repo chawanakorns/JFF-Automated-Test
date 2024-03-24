@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test search, category and add item function</name>
+   <name>Test search function</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -105,12 +105,5 @@
          <value></value>
          <variableId>36667d9a-7077-480b-9e6f-cf8351fb8971</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d8c88dd0-52ed-4a5c-a32d-f2a8f98e135d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FrontEnd/Add item to basket from homepage</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

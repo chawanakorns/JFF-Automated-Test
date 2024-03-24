@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add to Cart</name>
+   <tag></tag>
+   <elementGuidId>06578c74-64a0-43da-a44b-40f0a8bd5be4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-warning.w-75</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d15ce6be-5bd2-48be-83cf-1070660d3c73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-warning w-75</value>
+      <webElementGuid>cff63327-3287-4fca-a5bc-283fe7cfe970</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>c109c7a3-4058-45be-83d9-a9071986e921</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add to Cart</value>
+      <webElementGuid>0871bd6b-f2a7-4d63-923e-a0723dd585da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;myCarousel1&quot;)/div[@class=&quot;carousel-inner w-100&quot;]/div[@class=&quot;carousel-item active&quot;]/div[@class=&quot;col-4 col-lg-2&quot;]/a[@class=&quot;text-dark&quot;]/div[@class=&quot;card border-0 position-relative&quot;]/div[@class=&quot;card-body px-0&quot;]/form[1]/button[@class=&quot;btn btn-warning w-75&quot;]</value>
+      <webElementGuid>dd7074dd-5bfb-446b-8e1c-dba03715684c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>3ee4b9e3-fc3f-4e3e-98f6-2942ce86df31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='myCarousel1']/div/div/div/a/div/div[2]/form/button</value>
+      <webElementGuid>ce4be6b1-9a11-4f86-ab29-92beabcd32ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='฿300.00'])[1]/following::button[1]</value>
+      <webElementGuid>6af02a4d-c3f9-4f75-9c4f-8c0aa2b036df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='book 3'])[1]/following::button[1]</value>
+      <webElementGuid>dc210e60-918b-4fa8-a95e-1a48c02fae3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Northern Italy: Emilia-Romagna'])[1]/preceding::button[1]</value>
+      <webElementGuid>78726f71-efa4-4443-b31b-0ef342e97d55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[2]/preceding::button[1]</value>
+      <webElementGuid>04749f25-0080-4791-ae06-10fe08f9eac1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add to Cart']/parent::*</value>
+      <webElementGuid>125a2e16-1441-4832-addf-7a18d8885cbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/button</value>
+      <webElementGuid>eaaa04b8-b40d-4f71-a2c0-91f27c100fc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Add to Cart' or . = 'Add to Cart')]</value>
+      <webElementGuid>c1bd3659-72ea-4347-bcc2-04cf35890801</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

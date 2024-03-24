@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('http://18.140.98.114:8080/register')
 
 WebUI.setText(findTestObject('Object Repository/FrontEnd/Register/Page_Document/input_Email_EMAIL'), emailBox)

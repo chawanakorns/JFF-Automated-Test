@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Fiction_navbar-brand ms-auto</name>
+   <tag></tag>
+   <elementGuidId>df5a324f-b2be-459f-9acf-8c6e6c494110</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='top-nav']/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.navbar-brand.ms-auto</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>32eac76d-1b8c-4133-b426-06eee4e11b0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navbar-brand ms-auto</value>
+      <webElementGuid>44713e1e-8664-498f-b1e2-2782987a5fab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/cart</value>
+      <webElementGuid>16efb9fc-dbdf-4d53-a755-f04d91606587</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;top-nav&quot;)/div[@class=&quot;container-fluid&quot;]/a[@class=&quot;navbar-brand ms-auto&quot;]</value>
+      <webElementGuid>043fd2ae-5500-40a8-8e46-47178422bb0a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='top-nav']/div/a</value>
+      <webElementGuid>8607a9e5-2cc4-4426-994c-62890f5335fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fiction'])[1]/preceding::a[6]</value>
+      <webElementGuid>b4c2bab0-1cdf-4b62-a89f-fcb83b3cbddf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non-fiction'])[1]/preceding::a[7]</value>
+      <webElementGuid>cfe061d1-66ae-4234-9081-23c2c9a7a04e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/cart')]</value>
+      <webElementGuid>65a72fa0-f6b5-4b44-bf4e-aac0d7dfc142</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>9c7e726c-3326-4ebf-ad7f-6e1bc1b2ab42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/cart']</value>
+      <webElementGuid>2c7cb1a8-0f8e-4693-a1ea-bca771398363</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

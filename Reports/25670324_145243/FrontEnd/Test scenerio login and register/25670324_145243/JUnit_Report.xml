@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test scenerio login and register" time="23.313" tests="4" failures="0" errors="0">
+   <testsuite name="Test scenerio login and register" tests="4" failures="0" errors="0" time="23.313" skipped="0" timestamp="24-03-2024T14:52:58" hostname="jj101 - JJKung" id="Test Suites/FrontEnd/Test scenerio login and register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jj101\\git\\JFF-Automated-Test\\Reports\\25670324_145243\\FrontEnd\\Test scenerio login and register\\25670324_145243"/>
+         <property name="logFiles" value="C:\\Users\\jj101\\git\\JFF-Automated-Test\\Reports\\25670324_145243\\FrontEnd\\Test scenerio login and register\\25670324_145243\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jj101 - JJKung"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="26.197.199.243"/>
+         <property name="sessionId" value="f2141d3c6177a01040d16c77069e57a2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/FrontEnd/Test login invaild" time="7.056" classname="Test Cases/FrontEnd/Test login invaild" status="PASSED">
+         <system-out><![CDATA[24-03-2024T14:52:58 - [TEST_CASE][PASSED] - Test Cases/FrontEnd/Test login invaild: Test Cases/FrontEnd/Test login invaild
+
+24-03-2024T14:52:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-03-2024T14:52:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-03-2024T14:52:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-03-2024T14:53:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-03-2024T14:53:01 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/login"): Navigate to 'http://18.140.98.114:8080/login' successfully
+
+24-03-2024T14:53:03 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/login' successfully
+
+24-03-2024T14:53:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FrontEnd/Login/Page_Document/usernameBox"), usernameBox): Text 'jjkungzaza' is set on object 'Object Repository/FrontEnd/Login/Page_Document/usernameBox'
+
+24-03-2024T14:53:04 - [MESSAGE][PASSED] - Text 'jjkungzaza' is set on object 'Object Repository/FrontEnd/Login/Page_Document/usernameBox'
+
+24-03-2024T14:53:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/FrontEnd/Login/Page_Document/passwordBox"), passwordBox): Text ****** has been set on object 'Object Repository/FrontEnd/Login/Page_Document/passwordBox'
+
+24-03-2024T14:53:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FrontEnd/Login/Page_Document/passwordBox'
+
+24-03-2024T14:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Login/Page_Document/Login")): Object: 'Object Repository/FrontEnd/Login/Page_Document/Login' is clicked on
+
+24-03-2024T14:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Login/Page_Document/Login' is clicked on
+
+24-03-2024T14:53:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Login/Page_Document/invaildText"), "Invalid username or password!"): Actual text and expected text of test object 'Object Repository/FrontEnd/Login/Page_Document/invaildText' are matched.
+
+24-03-2024T14:53:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Login/Page_Document/invaildText' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FrontEnd/Test Register Invaild" time="5.659" classname="Test Cases/FrontEnd/Test Register Invaild" status="PASSED">
+         <system-out><![CDATA[24-03-2024T14:53:05 - [TEST_CASE][PASSED] - Test Cases/FrontEnd/Test Register Invaild: Test Cases/FrontEnd/Test Register Invaild
+
+24-03-2024T14:53:06 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/register"): Navigate to 'http://18.140.98.114:8080/register' successfully
+
+24-03-2024T14:53:06 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/register' successfully
+
+24-03-2024T14:53:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FrontEnd/Register/Page_Document/input_Email_EMAIL"), emailBox): Text 'jj10102546@gmail.com' is set on object 'Object Repository/FrontEnd/Register/Page_Document/input_Email_EMAIL'
+
+24-03-2024T14:53:07 - [MESSAGE][PASSED] - Text 'jj10102546@gmail.com' is set on object 'Object Repository/FrontEnd/Register/Page_Document/input_Email_EMAIL'
+
+24-03-2024T14:53:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FrontEnd/Register/Page_Document/userNameBox"), usernameBox): Text 'jjkungzaza' is set on object 'Object Repository/FrontEnd/Register/Page_Document/userNameBox'
+
+24-03-2024T14:53:07 - [MESSAGE][PASSED] - Text 'jjkungzaza' is set on object 'Object Repository/FrontEnd/Register/Page_Document/userNameBox'
+
+24-03-2024T14:53:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/FrontEnd/Register/Page_Document/passwordBox"), passwordBox): Text ****** has been set on object 'Object Repository/FrontEnd/Register/Page_Document/passwordBox'
+
+24-03-2024T14:53:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FrontEnd/Register/Page_Document/passwordBox'
+
+24-03-2024T14:53:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/FrontEnd/Register/Page_Document/registerBox"), confirmpasswordBox): Text ****** has been set on object 'Object Repository/FrontEnd/Register/Page_Document/registerBox'
+
+24-03-2024T14:53:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FrontEnd/Register/Page_Document/registerBox'
+
+24-03-2024T14:53:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Register/Page_Document/button_Register")): Object: 'Object Repository/FrontEnd/Register/Page_Document/button_Register' is clicked on
+
+24-03-2024T14:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Register/Page_Document/button_Register' is clicked on
+
+24-03-2024T14:53:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Register/Page_Document/invaildText"), "Password is not matched."): Actual text and expected text of test object 'Object Repository/FrontEnd/Register/Page_Document/invaildText' are matched.
+
+24-03-2024T14:53:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Register/Page_Document/invaildText' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FrontEnd/Test Register Success" time="5.842" classname="Test Cases/FrontEnd/Test Register Success" status="PASSED">
+         <system-out><![CDATA[24-03-2024T14:53:11 - [TEST_CASE][PASSED] - Test Cases/FrontEnd/Test Register Success: Test Cases/FrontEnd/Test Register Success
+
+24-03-2024T14:53:11 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/register"): Navigate to 'http://18.140.98.114:8080/register' successfully
+
+24-03-2024T14:53:12 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/register' successfully
+
+24-03-2024T14:53:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FrontEnd/Register/Page_Document/input_Email_EMAIL"), emailBox): Text 'jj10102546@gmail.com' is set on object 'Object Repository/FrontEnd/Register/Page_Document/input_Email_EMAIL'
+
+24-03-2024T14:53:12 - [MESSAGE][PASSED] - Text 'jj10102546@gmail.com' is set on object 'Object Repository/FrontEnd/Register/Page_Document/input_Email_EMAIL'
+
+24-03-2024T14:53:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FrontEnd/Register/Page_Document/userNameBox"), usernameBox): Text 'jjkungzaza' is set on object 'Object Repository/FrontEnd/Register/Page_Document/userNameBox'
+
+24-03-2024T14:53:13 - [MESSAGE][PASSED] - Text 'jjkungzaza' is set on object 'Object Repository/FrontEnd/Register/Page_Document/userNameBox'
+
+24-03-2024T14:53:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/FrontEnd/Register/Page_Document/passwordBox"), passwordBox): Text ****** has been set on object 'Object Repository/FrontEnd/Register/Page_Document/passwordBox'
+
+24-03-2024T14:53:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FrontEnd/Register/Page_Document/passwordBox'
+
+24-03-2024T14:53:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/FrontEnd/Register/Page_Document/registerBox"), passwordBox): Text ****** has been set on object 'Object Repository/FrontEnd/Register/Page_Document/registerBox'
+
+24-03-2024T14:53:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FrontEnd/Register/Page_Document/registerBox'
+
+24-03-2024T14:53:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Register/Page_Document/button_Register")): Object: 'Object Repository/FrontEnd/Register/Page_Document/button_Register' is clicked on
+
+24-03-2024T14:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Register/Page_Document/button_Register' is clicked on
+
+24-03-2024T14:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Register/Page_Document/bannerHomepage")): Object: 'Object Repository/FrontEnd/Register/Page_Document/bannerHomepage' is clicked on
+
+24-03-2024T14:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Register/Page_Document/bannerHomepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FrontEnd/Test Login success" time="4.291" classname="Test Cases/FrontEnd/Test Login success" status="PASSED">
+         <system-out><![CDATA[24-03-2024T14:53:17 - [TEST_CASE][PASSED] - Test Cases/FrontEnd/Test Login success: Test Cases/FrontEnd/Test Login success
+
+24-03-2024T14:53:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-03-2024T14:53:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-03-2024T14:53:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-03-2024T14:53:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-03-2024T14:53:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-03-2024T14:53:18 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/login"): Navigate to 'http://18.140.98.114:8080/login' successfully
+
+24-03-2024T14:53:19 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/login' successfully
+
+24-03-2024T14:53:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FrontEnd/Login/Page_Document/usernameBox"), usernameBox): Text 'jjkungzaza' is set on object 'Object Repository/FrontEnd/Login/Page_Document/usernameBox'
+
+24-03-2024T14:53:20 - [MESSAGE][PASSED] - Text 'jjkungzaza' is set on object 'Object Repository/FrontEnd/Login/Page_Document/usernameBox'
+
+24-03-2024T14:53:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/FrontEnd/Login/Page_Document/passwordBox"), passwordBox): Text ****** has been set on object 'Object Repository/FrontEnd/Login/Page_Document/passwordBox'
+
+24-03-2024T14:53:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FrontEnd/Login/Page_Document/passwordBox'
+
+24-03-2024T14:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Login/Page_Document/Login")): Object: 'Object Repository/FrontEnd/Login/Page_Document/Login' is clicked on
+
+24-03-2024T14:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Login/Page_Document/Login' is clicked on
+
+24-03-2024T14:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Login/Page_Document/homePageBanner")): Object: 'Object Repository/FrontEnd/Login/Page_Document/homePageBanner' is clicked on
+
+24-03-2024T14:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Login/Page_Document/homePageBanner' is clicked on
+
+24-03-2024T14:53:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-03-2024T14:53:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-03-2024T14:52:58 - [TEST_SUITE][PASSED] - Test scenerio login and register: Test Cases/FrontEnd/Test Login success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

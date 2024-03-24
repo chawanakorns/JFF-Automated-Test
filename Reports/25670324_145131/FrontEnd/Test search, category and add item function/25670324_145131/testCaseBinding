@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/FrontEnd/Test search","testCaseId":"Test Cases/FrontEnd/Test search","iterationVariableName":"","bindedValues":{"typesearch":"\u0027gordon\u0027","bookname":"\u0027Gordon Ramsay Quick and Delicious: 100 Recipe\u0027"}}
+{"testCaseName":"Test Cases/FrontEnd/Test search","testCaseId":"Test Cases/FrontEnd/Test search","iterationVariableName":"","bindedValues":{"typesearch":"\u0027the\u0027","bookname":"\u0027Daughters of the Lamp\u0027"}}
+{"testCaseName":"Test Cases/FrontEnd/Test search","testCaseId":"Test Cases/FrontEnd/Test search","iterationVariableName":"","bindedValues":{"typesearch":"\u0027cal\u0027","bookname":"\u0027Alphabetical Diaries\u0027"}}
+{"testCaseName":"Test Cases/FrontEnd/Test category","testCaseId":"Test Cases/FrontEnd/Test category","iterationVariableName":""}
+{"testCaseName":"Test Cases/FrontEnd/Add item to basket from homepage","testCaseId":"Test Cases/FrontEnd/Add item to basket from homepage","iterationVariableName":""}

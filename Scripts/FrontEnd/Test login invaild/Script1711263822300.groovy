@@ -29,5 +29,3 @@ WebUI.click(findTestObject('Object Repository/FrontEnd/Login/Page_Document/Login
 
 WebUI.verifyElementText(findTestObject('Object Repository/FrontEnd/Login/Page_Document/invaildText'), 'Invalid username or password!')
 
-WebUI.closeBrowser()
-

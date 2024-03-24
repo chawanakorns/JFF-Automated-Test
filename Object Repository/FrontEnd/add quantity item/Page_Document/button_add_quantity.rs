@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_add_quantity</name>
+   <tag></tag>
+   <elementGuidId>d6f38535-6b4e-400c-8538-c5dc3cf55449</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.input-group-append.custom-input-group > button.btn.btn-outline-secondary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4f54ab75-9860-470d-b88d-f12123d59e9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-secondary</value>
+      <webElementGuid>b4c9d783-ed57-48b5-8d0d-adf4d059544e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a1d8403b-d123-46cb-b9af-a882e869dfec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>increment(this)</value>
+      <webElementGuid>c3660e00-ee66-4335-a50e-875d61e3cdd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                            +
+                                                        </value>
+      <webElementGuid>921be996-2312-4e5c-b565-f2e6b0dc8a9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container-fluid row main&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 box-left&quot;]/div[@class=&quot;book-item&quot;]/table[@class=&quot;custom-table&quot;]/tbody[@class=&quot;item-frame&quot;]/tr[1]/td[4]/div[@class=&quot;input-group quantity-btn&quot;]/div[@class=&quot;input-group-append custom-input-group&quot;]/button[@class=&quot;btn btn-outline-secondary&quot;]</value>
+      <webElementGuid>42d2ed23-b753-405d-98a2-445f2ffe8c78</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>10718c67-16f6-470e-a04a-ae2485b5f2b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::button[1]</value>
+      <webElementGuid>c4592a0e-81fd-45ac-a419-e69531e0566b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='book 3'])[1]/following::button[2]</value>
+      <webElementGuid>a4a143b3-9d1c-4a50-bd9c-77b396a2f1d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter Promotion code'])[1]/preceding::button[2]</value>
+      <webElementGuid>d22a0378-f553-4575-8189-efe7af436024</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply'])[1]/preceding::button[2]</value>
+      <webElementGuid>40d1fb1e-82e2-4817-aa70-4156570c411a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='+']/parent::*</value>
+      <webElementGuid>6df5e890-defd-42ee-abb1-54431ffe4cdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>c82a57a7-bef8-45e2-aad5-dcf1f7deeecc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+                                                            +
+                                                        ' or . = '
+                                                            +
+                                                        ')]</value>
+      <webElementGuid>de4b6632-670a-47b9-9206-02257641c14f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

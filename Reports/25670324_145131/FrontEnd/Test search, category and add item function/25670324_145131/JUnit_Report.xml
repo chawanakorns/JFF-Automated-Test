@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test search, category and add item function" time="39.573" tests="5" failures="0" errors="0">
+   <testsuite name="Test search, category and add item function" tests="5" failures="0" errors="0" time="39.573" skipped="0" timestamp="24-03-2024T14:51:45" hostname="jj101 - JJKung" id="Test Suites/FrontEnd/Test search, category and add item function">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jj101\\git\\JFF-Automated-Test\\Reports\\25670324_145131\\FrontEnd\\Test search, category and add item function\\25670324_145131"/>
+         <property name="logFiles" value="C:\\Users\\jj101\\git\\JFF-Automated-Test\\Reports\\25670324_145131\\FrontEnd\\Test search, category and add item function\\25670324_145131\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jj101 - JJKung"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="26.197.199.243"/>
+         <property name="sessionId" value="5ad4c19c4da8cb0bcc60c3b22a3703f1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/FrontEnd/Test search" time="6.009" classname="Test Cases/FrontEnd/Test search" status="PASSED">
+         <system-out><![CDATA[24-03-2024T14:51:45 - [TEST_CASE][PASSED] - Test Cases/FrontEnd/Test search: Test Cases/FrontEnd/Test search
+
+24-03-2024T14:51:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-03-2024T14:51:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-03-2024T14:51:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-03-2024T14:51:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-03-2024T14:51:48 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/"): Navigate to 'http://18.140.98.114:8080/' successfully
+
+24-03-2024T14:51:49 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/' successfully
+
+24-03-2024T14:51:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-03-2024T14:51:49 - [MESSAGE][PASSED] - Current window maximized
+
+24-03-2024T14:51:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FrontEnd/Search/searchbar"), typesearch): Text 'gordon' is set on object 'Object Repository/FrontEnd/Search/searchbar'
+
+24-03-2024T14:51:50 - [MESSAGE][PASSED] - Text 'gordon' is set on object 'Object Repository/FrontEnd/Search/searchbar'
+
+24-03-2024T14:51:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FrontEnd/Search/searchbar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FrontEnd/Search/searchbar'
+
+24-03-2024T14:51:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FrontEnd/Search/searchbar'
+
+24-03-2024T14:51:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Search/bookname"), bookname): Actual text and expected text of test object 'Object Repository/FrontEnd/Search/bookname' are matched.
+
+24-03-2024T14:51:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Search/bookname' are matched.
+
+24-03-2024T14:51:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-03-2024T14:51:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FrontEnd/Test search" time="3.51" classname="Test Cases/FrontEnd/Test search" status="PASSED">
+         <system-out><![CDATA[24-03-2024T14:51:51 - [TEST_CASE][PASSED] - Test Cases/FrontEnd/Test search: Test Cases/FrontEnd/Test search
+
+24-03-2024T14:51:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-03-2024T14:51:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-03-2024T14:51:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-03-2024T14:51:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-03-2024T14:51:52 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/"): Navigate to 'http://18.140.98.114:8080/' successfully
+
+24-03-2024T14:51:53 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/' successfully
+
+24-03-2024T14:51:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-03-2024T14:51:53 - [MESSAGE][PASSED] - Current window maximized
+
+24-03-2024T14:51:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FrontEnd/Search/searchbar"), typesearch): Text 'the' is set on object 'Object Repository/FrontEnd/Search/searchbar'
+
+24-03-2024T14:51:54 - [MESSAGE][PASSED] - Text 'the' is set on object 'Object Repository/FrontEnd/Search/searchbar'
+
+24-03-2024T14:51:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FrontEnd/Search/searchbar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FrontEnd/Search/searchbar'
+
+24-03-2024T14:51:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FrontEnd/Search/searchbar'
+
+24-03-2024T14:51:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Search/bookname"), bookname): Actual text and expected text of test object 'Object Repository/FrontEnd/Search/bookname' are matched.
+
+24-03-2024T14:51:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Search/bookname' are matched.
+
+24-03-2024T14:51:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-03-2024T14:51:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FrontEnd/Test search" time="3.55" classname="Test Cases/FrontEnd/Test search" status="PASSED">
+         <system-out><![CDATA[24-03-2024T14:51:55 - [TEST_CASE][PASSED] - Test Cases/FrontEnd/Test search: Test Cases/FrontEnd/Test search
+
+24-03-2024T14:51:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-03-2024T14:51:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-03-2024T14:51:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-03-2024T14:51:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-03-2024T14:51:56 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/"): Navigate to 'http://18.140.98.114:8080/' successfully
+
+24-03-2024T14:51:57 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/' successfully
+
+24-03-2024T14:51:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-03-2024T14:51:57 - [MESSAGE][PASSED] - Current window maximized
+
+24-03-2024T14:51:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/FrontEnd/Search/searchbar"), typesearch): Text 'cal' is set on object 'Object Repository/FrontEnd/Search/searchbar'
+
+24-03-2024T14:51:57 - [MESSAGE][PASSED] - Text 'cal' is set on object 'Object Repository/FrontEnd/Search/searchbar'
+
+24-03-2024T14:51:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/FrontEnd/Search/searchbar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/FrontEnd/Search/searchbar'
+
+24-03-2024T14:51:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/FrontEnd/Search/searchbar'
+
+24-03-2024T14:51:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Search/bookname"), bookname): Actual text and expected text of test object 'Object Repository/FrontEnd/Search/bookname' are matched.
+
+24-03-2024T14:51:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Search/bookname' are matched.
+
+24-03-2024T14:51:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-03-2024T14:51:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FrontEnd/Test category" time="18.978" classname="Test Cases/FrontEnd/Test category" status="PASSED">
+         <system-out><![CDATA[24-03-2024T14:51:58 - [TEST_CASE][PASSED] - Test Cases/FrontEnd/Test category: Test Cases/FrontEnd/Test category
+
+24-03-2024T14:51:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-03-2024T14:51:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-03-2024T14:51:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-03-2024T14:52:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-03-2024T14:52:00 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/search?q="): Navigate to 'http://18.140.98.114:8080/search?q=' successfully
+
+24-03-2024T14:52:01 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/search?q=' successfully
+
+24-03-2024T14:52:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("FrontEnd/Categories test/Page_Document/nonBook"), nonSelectBook): Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/nonBook' are matched.
+
+24-03-2024T14:52:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/nonBook' are matched.
+
+24-03-2024T14:52:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxFiction")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxFiction' is clicked on
+
+24-03-2024T14:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxFiction' is clicked on
+
+24-03-2024T14:52:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/fictionBook"), fictionBook): Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/fictionBook' are matched.
+
+24-03-2024T14:52:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/fictionBook' are matched.
+
+24-03-2024T14:52:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxFiction")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxFiction' is clicked on
+
+24-03-2024T14:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxFiction' is clicked on
+
+24-03-2024T14:52:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxNonFiction")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxNonFiction' is clicked on
+
+24-03-2024T14:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxNonFiction' is clicked on
+
+24-03-2024T14:52:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/nonFictionBook"), nonfictionBook): Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/nonFictionBook' are matched.
+
+24-03-2024T14:52:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/nonFictionBook' are matched.
+
+24-03-2024T14:52:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxNonFiction")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxNonFiction' is clicked on
+
+24-03-2024T14:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxNonFiction' is clicked on
+
+24-03-2024T14:52:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxChild")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxChild' is clicked on
+
+24-03-2024T14:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxChild' is clicked on
+
+24-03-2024T14:52:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/childBook"), childBook): Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/childBook' are matched.
+
+24-03-2024T14:52:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/childBook' are matched.
+
+24-03-2024T14:52:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxChild")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxChild' is clicked on
+
+24-03-2024T14:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxChild' is clicked on
+
+24-03-2024T14:52:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxNovel")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxNovel' is clicked on
+
+24-03-2024T14:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxNovel' is clicked on
+
+24-03-2024T14:52:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/novelBook"), novelBook): Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/novelBook' are matched.
+
+24-03-2024T14:52:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/novelBook' are matched.
+
+24-03-2024T14:52:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxNovel")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxNovel' is clicked on
+
+24-03-2024T14:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxNovel' is clicked on
+
+24-03-2024T14:52:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxRef")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxRef' is clicked on
+
+24-03-2024T14:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxRef' is clicked on
+
+24-03-2024T14:52:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/refBook"), refBook): Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/refBook' are matched.
+
+24-03-2024T14:52:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/refBook' are matched.
+
+24-03-2024T14:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxRef")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxRef' is clicked on
+
+24-03-2024T14:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxRef' is clicked on
+
+24-03-2024T14:52:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxPerdev")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxPerdev' is clicked on
+
+24-03-2024T14:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxPerdev' is clicked on
+
+24-03-2024T14:52:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/perdevBook"), perdevBook): Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/perdevBook' are matched.
+
+24-03-2024T14:52:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/perdevBook' are matched.
+
+24-03-2024T14:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxPerdev")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxPerdev' is clicked on
+
+24-03-2024T14:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxPerdev' is clicked on
+
+24-03-2024T14:52:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/cookCheckbox")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/cookCheckbox' is clicked on
+
+24-03-2024T14:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/cookCheckbox' is clicked on
+
+24-03-2024T14:52:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/nonBook"), nonSelectBook): Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/nonBook' are matched.
+
+24-03-2024T14:52:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/nonBook' are matched.
+
+24-03-2024T14:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/cookCheckbox")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/cookCheckbox' is clicked on
+
+24-03-2024T14:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/cookCheckbox' is clicked on
+
+24-03-2024T14:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxTravel")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxTravel' is clicked on
+
+24-03-2024T14:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxTravel' is clicked on
+
+24-03-2024T14:52:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/travelBook"), travelBook): Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/travelBook' are matched.
+
+24-03-2024T14:52:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/travelBook' are matched.
+
+24-03-2024T14:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/checkboxTravel")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxTravel' is clicked on
+
+24-03-2024T14:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/checkboxTravel' is clicked on
+
+24-03-2024T14:52:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/poetryCheckbox")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/poetryCheckbox' is clicked on
+
+24-03-2024T14:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/poetryCheckbox' is clicked on
+
+24-03-2024T14:52:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/poetryBook"), poetryBook): Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/poetryBook' are matched.
+
+24-03-2024T14:52:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Categories test/Page_Document/poetryBook' are matched.
+
+24-03-2024T14:52:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Categories test/Page_Document/poetryCheckbox")): Object: 'Object Repository/FrontEnd/Categories test/Page_Document/poetryCheckbox' is clicked on
+
+24-03-2024T14:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Categories test/Page_Document/poetryCheckbox' is clicked on
+
+24-03-2024T14:52:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-03-2024T14:52:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FrontEnd/Add item to basket from homepage" time="7.129" classname="Test Cases/FrontEnd/Add item to basket from homepage" status="PASSED">
+         <system-out><![CDATA[24-03-2024T14:52:17 - [TEST_CASE][PASSED] - Test Cases/FrontEnd/Add item to basket from homepage: Test Cases/FrontEnd/Add item to basket from homepage
+
+24-03-2024T14:52:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-03-2024T14:52:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-03-2024T14:52:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-03-2024T14:52:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-03-2024T14:52:18 - [TEST_STEP][PASSED] - navigateToUrl("http://18.140.98.114:8080/"): Navigate to 'http://18.140.98.114:8080/' successfully
+
+24-03-2024T14:52:19 - [MESSAGE][PASSED] - Navigate to 'http://18.140.98.114:8080/' successfully
+
+24-03-2024T14:52:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Page_Document/Book-name-homepage"), "Northern Italy: Emilia-Romagna"): Actual text and expected text of test object 'Object Repository/FrontEnd/Page_Document/Book-name-homepage' are matched.
+
+24-03-2024T14:52:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Page_Document/Book-name-homepage' are matched.
+
+24-03-2024T14:52:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Page_Document/Price-homepages"), "฿350.00"): Actual text and expected text of test object 'Object Repository/FrontEnd/Page_Document/Price-homepages' are matched.
+
+24-03-2024T14:52:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Page_Document/Price-homepages' are matched.
+
+24-03-2024T14:52:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Page_Document/button_Add to Cart")): Object: 'Object Repository/FrontEnd/Page_Document/button_Add to Cart' is clicked on
+
+24-03-2024T14:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Page_Document/button_Add to Cart' is clicked on
+
+24-03-2024T14:52:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FrontEnd/Page_Document/Cart")): Object: 'Object Repository/FrontEnd/Page_Document/Cart' is clicked on
+
+24-03-2024T14:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FrontEnd/Page_Document/Cart' is clicked on
+
+24-03-2024T14:52:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Page_Document/th_Northern Italy Emilia-Romagna"), "Northern Italy: Emilia-Romagna"): Actual text and expected text of test object 'Object Repository/FrontEnd/Page_Document/th_Northern Italy Emilia-Romagna' are matched.
+
+24-03-2024T14:52:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Page_Document/th_Northern Italy Emilia-Romagna' are matched.
+
+24-03-2024T14:52:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Page_Document/Total-price"), "฿350.00"): Actual text and expected text of test object 'Object Repository/FrontEnd/Page_Document/Total-price' are matched.
+
+24-03-2024T14:52:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Page_Document/Total-price' are matched.
+
+24-03-2024T14:52:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Page_Document/sub-total"), "฿350.00"): Actual text and expected text of test object 'Object Repository/FrontEnd/Page_Document/sub-total' are matched.
+
+24-03-2024T14:52:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Page_Document/sub-total' are matched.
+
+24-03-2024T14:52:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/FrontEnd/Page_Document/EstTotal"), "฿350.00"): Actual text and expected text of test object 'Object Repository/FrontEnd/Page_Document/EstTotal' are matched.
+
+24-03-2024T14:52:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FrontEnd/Page_Document/EstTotal' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-03-2024T14:51:45 - [TEST_SUITE][PASSED] - Test search, category and add item function: Test Cases/FrontEnd/Add item to basket from homepage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

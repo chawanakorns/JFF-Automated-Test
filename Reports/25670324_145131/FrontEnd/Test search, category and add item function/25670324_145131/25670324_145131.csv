@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"Test search, category and add item function",Chrome 122.0.0.0,,,24-03-2024 14:51:45,24-03-2024 14:52:25,39.573s,PASSED
+,,,,,,,
+Test Cases/FrontEnd/Test search,Chrome 122.0.0.0,,,24-03-2024 14:51:45,24-03-2024 14:51:51,6.009s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,24-03-2024 14:51:46,24-03-2024 14:51:48,1.882s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/"")",Chrome 122.0.0.0,,,24-03-2024 14:51:48,24-03-2024 14:51:49,1.531s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,24-03-2024 14:51:49,24-03-2024 14:51:49,0.168s,PASSED
+"setText(findTestObject(""Object Repository/FrontEnd/Search/searchbar""), typesearch)",Chrome 122.0.0.0,,,24-03-2024 14:51:49,24-03-2024 14:51:50,0.838s,PASSED
+"sendKeys(findTestObject(""Object Repository/FrontEnd/Search/searchbar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,24-03-2024 14:51:50,24-03-2024 14:51:51,0.692s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Search/bookname""), bookname)",Chrome 122.0.0.0,,,24-03-2024 14:51:51,24-03-2024 14:51:51,0.333s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,24-03-2024 14:51:51,24-03-2024 14:51:51,0.169s,PASSED
+,,,,,,,
+Test Cases/FrontEnd/Test search,Chrome 122.0.0.0,,,24-03-2024 14:51:51,24-03-2024 14:51:55,3.510s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,24-03-2024 14:51:51,24-03-2024 14:51:52,0.755s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/"")",Chrome 122.0.0.0,,,24-03-2024 14:51:52,24-03-2024 14:51:53,0.790s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,24-03-2024 14:51:53,24-03-2024 14:51:53,0.151s,PASSED
+"setText(findTestObject(""Object Repository/FrontEnd/Search/searchbar""), typesearch)",Chrome 122.0.0.0,,,24-03-2024 14:51:53,24-03-2024 14:51:54,0.652s,PASSED
+"sendKeys(findTestObject(""Object Repository/FrontEnd/Search/searchbar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,24-03-2024 14:51:54,24-03-2024 14:51:54,0.692s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Search/bookname""), bookname)",Chrome 122.0.0.0,,,24-03-2024 14:51:54,24-03-2024 14:51:55,0.322s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,24-03-2024 14:51:55,24-03-2024 14:51:55,0.126s,PASSED
+,,,,,,,
+Test Cases/FrontEnd/Test search,Chrome 122.0.0.0,,,24-03-2024 14:51:55,24-03-2024 14:51:58,3.550s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,24-03-2024 14:51:55,24-03-2024 14:51:56,0.845s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/"")",Chrome 122.0.0.0,,,24-03-2024 14:51:56,24-03-2024 14:51:57,0.794s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,24-03-2024 14:51:57,24-03-2024 14:51:57,0.133s,PASSED
+"setText(findTestObject(""Object Repository/FrontEnd/Search/searchbar""), typesearch)",Chrome 122.0.0.0,,,24-03-2024 14:51:57,24-03-2024 14:51:57,0.666s,PASSED
+"sendKeys(findTestObject(""Object Repository/FrontEnd/Search/searchbar""), Keys.chord(ENTER))",Chrome 122.0.0.0,,,24-03-2024 14:51:57,24-03-2024 14:51:58,0.536s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Search/bookname""), bookname)",Chrome 122.0.0.0,,,24-03-2024 14:51:58,24-03-2024 14:51:58,0.427s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,24-03-2024 14:51:58,24-03-2024 14:51:58,0.128s,PASSED
+,,,,,,,
+Test Cases/FrontEnd/Test category,Chrome 122.0.0.0,,,24-03-2024 14:51:58,24-03-2024 14:52:17,18.978s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,24-03-2024 14:51:59,24-03-2024 14:52:00,0.721s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/search?q="")",Chrome 122.0.0.0,,,24-03-2024 14:52:00,24-03-2024 14:52:01,1.125s,PASSED
+"verifyElementText(findTestObject(""FrontEnd/Categories test/Page_Document/nonBook""), nonSelectBook)",Chrome 122.0.0.0,,,24-03-2024 14:52:01,24-03-2024 14:52:01,0.320s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxFiction""))",Chrome 122.0.0.0,,,24-03-2024 14:52:01,24-03-2024 14:52:02,0.666s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/fictionBook""), fictionBook)",Chrome 122.0.0.0,,,24-03-2024 14:52:02,24-03-2024 14:52:02,0.302s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxFiction""))",Chrome 122.0.0.0,,,24-03-2024 14:52:02,24-03-2024 14:52:03,0.565s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxNonFiction""))",Chrome 122.0.0.0,,,24-03-2024 14:52:03,24-03-2024 14:52:03,0.747s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/nonFictionBook""), nonfictionBook)",Chrome 122.0.0.0,,,24-03-2024 14:52:03,24-03-2024 14:52:04,0.303s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxNonFiction""))",Chrome 122.0.0.0,,,24-03-2024 14:52:04,24-03-2024 14:52:04,0.580s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxChild""))",Chrome 122.0.0.0,,,24-03-2024 14:52:04,24-03-2024 14:52:05,0.750s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/childBook""), childBook)",Chrome 122.0.0.0,,,24-03-2024 14:52:05,24-03-2024 14:52:05,0.294s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxChild""))",Chrome 122.0.0.0,,,24-03-2024 14:52:05,24-03-2024 14:52:06,0.556s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxNovel""))",Chrome 122.0.0.0,,,24-03-2024 14:52:06,24-03-2024 14:52:06,0.700s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/novelBook""), novelBook)",Chrome 122.0.0.0,,,24-03-2024 14:52:06,24-03-2024 14:52:07,0.303s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxNovel""))",Chrome 122.0.0.0,,,24-03-2024 14:52:07,24-03-2024 14:52:07,0.570s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxRef""))",Chrome 122.0.0.0,,,24-03-2024 14:52:07,24-03-2024 14:52:08,0.677s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/refBook""), refBook)",Chrome 122.0.0.0,,,24-03-2024 14:52:08,24-03-2024 14:52:08,0.415s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxRef""))",Chrome 122.0.0.0,,,24-03-2024 14:52:08,24-03-2024 14:52:09,0.579s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxPerdev""))",Chrome 122.0.0.0,,,24-03-2024 14:52:09,24-03-2024 14:52:10,0.772s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/perdevBook""), perdevBook)",Chrome 122.0.0.0,,,24-03-2024 14:52:10,24-03-2024 14:52:10,0.298s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxPerdev""))",Chrome 122.0.0.0,,,24-03-2024 14:52:10,24-03-2024 14:52:11,0.577s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/cookCheckbox""))",Chrome 122.0.0.0,,,24-03-2024 14:52:11,24-03-2024 14:52:11,0.785s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/nonBook""), nonSelectBook)",Chrome 122.0.0.0,,,24-03-2024 14:52:11,24-03-2024 14:52:12,0.289s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/cookCheckbox""))",Chrome 122.0.0.0,,,24-03-2024 14:52:12,24-03-2024 14:52:12,0.586s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxTravel""))",Chrome 122.0.0.0,,,24-03-2024 14:52:12,24-03-2024 14:52:13,0.698s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/travelBook""), travelBook)",Chrome 122.0.0.0,,,24-03-2024 14:52:13,24-03-2024 14:52:13,0.304s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/checkboxTravel""))",Chrome 122.0.0.0,,,24-03-2024 14:52:13,24-03-2024 14:52:14,0.572s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/poetryCheckbox""))",Chrome 122.0.0.0,,,24-03-2024 14:52:14,24-03-2024 14:52:16,2.470s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/poetryBook""), poetryBook)",Chrome 122.0.0.0,,,24-03-2024 14:52:16,24-03-2024 14:52:17,0.293s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Categories test/Page_Document/poetryCheckbox""))",Chrome 122.0.0.0,,,24-03-2024 14:52:17,24-03-2024 14:52:17,0.597s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,24-03-2024 14:52:17,24-03-2024 14:52:17,0.183s,PASSED
+,,,,,,,
+Test Cases/FrontEnd/Add item to basket from homepage,Chrome 122.0.0.0,Add item to basket,,24-03-2024 14:52:17,24-03-2024 14:52:25,7.129s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,24-03-2024 14:52:18,24-03-2024 14:52:18,0.813s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/"")",Chrome 122.0.0.0,,,24-03-2024 14:52:18,24-03-2024 14:52:19,0.734s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Page_Document/Book-name-homepage""), ""Northern Italy: Emilia-Romagna"")",Chrome 122.0.0.0,,,24-03-2024 14:52:19,24-03-2024 14:52:19,0.331s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Page_Document/Price-homepages""), ""฿350.00"")",Chrome 122.0.0.0,,,24-03-2024 14:52:19,24-03-2024 14:52:20,0.302s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Page_Document/button_Add to Cart""))",Chrome 122.0.0.0,,,24-03-2024 14:52:20,24-03-2024 14:52:23,2.880s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Page_Document/Cart""))",Chrome 122.0.0.0,,,24-03-2024 14:52:23,24-03-2024 14:52:23,0.609s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Page_Document/th_Northern Italy Emilia-Romagna""), ""Northern Italy: Emilia-Romagna"")",Chrome 122.0.0.0,,,24-03-2024 14:52:23,24-03-2024 14:52:24,0.413s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Page_Document/Total-price""), ""฿350.00"")",Chrome 122.0.0.0,,,24-03-2024 14:52:24,24-03-2024 14:52:24,0.308s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Page_Document/sub-total""), ""฿350.00"")",Chrome 122.0.0.0,,,24-03-2024 14:52:24,24-03-2024 14:52:24,0.297s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Page_Document/EstTotal""), ""฿350.00"")",Chrome 122.0.0.0,,,24-03-2024 14:52:24,24-03-2024 14:52:25,0.293s,PASSED
