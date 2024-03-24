@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Register Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08a4a18e-9d82-4eec-9f9e-bd06fe4c1b29</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1998c9db-28fe-4287-8c7d-348ce5a4fe5b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>309a5d77-fc93-4f49-b9d2-6618f8089654</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5505fa20-e03c-4271-a43a-c35624336038</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1998c9db-28fe-4287-8c7d-348ce5a4fe5b</id>
+      <masked>false</masked>
+      <name>usernameBox</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>309a5d77-fc93-4f49-b9d2-6618f8089654</id>
+      <masked>false</masked>
+      <name>emailBox</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5505fa20-e03c-4271-a43a-c35624336038</id>
+      <masked>false</masked>
+      <name>passwordBox</name>
+   </variable>
+</TestCaseEntity>

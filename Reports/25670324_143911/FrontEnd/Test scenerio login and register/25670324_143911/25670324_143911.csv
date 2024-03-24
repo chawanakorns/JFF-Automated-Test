@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test scenerio login and register,Chrome 122.0.0.0,,,24-03-2024 14:39:25,24-03-2024 14:39:50,25.106s,PASSED
+,,,,,,,
+Test Cases/FrontEnd/Test login invaild,Chrome 122.0.0.0,,,24-03-2024 14:39:25,24-03-2024 14:39:32,6.562s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,24-03-2024 14:39:26,24-03-2024 14:39:28,2.010s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/login"")",Chrome 122.0.0.0,,,24-03-2024 14:39:28,24-03-2024 14:39:29,1.424s,PASSED
+"setText(findTestObject(""Object Repository/FrontEnd/Login/Page_Document/usernameBox""), usernameBox)",Chrome 122.0.0.0,,,24-03-2024 14:39:29,24-03-2024 14:39:30,1.033s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FrontEnd/Login/Page_Document/passwordBox""), passwordBox)",Chrome 122.0.0.0,,,24-03-2024 14:39:30,24-03-2024 14:39:31,0.425s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Login/Page_Document/Login""))",Chrome 122.0.0.0,,,24-03-2024 14:39:31,24-03-2024 14:39:31,0.449s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Login/Page_Document/invaildText""), ""Invalid username or password!"")",Chrome 122.0.0.0,,,24-03-2024 14:39:31,24-03-2024 14:39:32,0.630s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,24-03-2024 14:39:32,24-03-2024 14:39:32,0.212s,PASSED
+,,,,,,,
+Test Cases/FrontEnd/Test Register Invaild,Chrome 122.0.0.0,,,24-03-2024 14:39:32,24-03-2024 14:39:39,6.702s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,24-03-2024 14:39:32,24-03-2024 14:39:33,0.713s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/register"")",Chrome 122.0.0.0,,,24-03-2024 14:39:33,24-03-2024 14:39:34,0.672s,PASSED
+"setText(findTestObject(""Object Repository/FrontEnd/Register/Page_Document/input_Email_EMAIL""), emailBox)",Chrome 122.0.0.0,,,24-03-2024 14:39:34,24-03-2024 14:39:34,0.713s,PASSED
+"setText(findTestObject(""Object Repository/FrontEnd/Register/Page_Document/userNameBox""), usernameBox)",Chrome 122.0.0.0,,,24-03-2024 14:39:34,24-03-2024 14:39:35,0.654s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FrontEnd/Register/Page_Document/passwordBox""), passwordBox)",Chrome 122.0.0.0,,,24-03-2024 14:39:35,24-03-2024 14:39:35,0.395s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FrontEnd/Register/Page_Document/registerBox""), confirmpasswordBox)",Chrome 122.0.0.0,,,24-03-2024 14:39:35,24-03-2024 14:39:36,0.369s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Register/Page_Document/button_Register""))",Chrome 122.0.0.0,,,24-03-2024 14:39:36,24-03-2024 14:39:38,2.618s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FrontEnd/Register/Page_Document/invaildText""), ""Password is not matched."")",Chrome 122.0.0.0,,,24-03-2024 14:39:38,24-03-2024 14:39:39,0.430s,PASSED
+,,,,,,,
+Test Cases/FrontEnd/Test Register Success,Chrome 122.0.0.0,,,24-03-2024 14:39:39,24-03-2024 14:39:46,7.119s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,24-03-2024 14:39:39,24-03-2024 14:39:40,0.825s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/register"")",Chrome 122.0.0.0,,,24-03-2024 14:39:40,24-03-2024 14:39:41,0.864s,PASSED
+"setText(findTestObject(""Object Repository/FrontEnd/Register/Page_Document/input_Email_EMAIL""), emailBox)",Chrome 122.0.0.0,,,24-03-2024 14:39:41,24-03-2024 14:39:41,0.713s,PASSED
+"setText(findTestObject(""Object Repository/FrontEnd/Register/Page_Document/userNameBox""), usernameBox)",Chrome 122.0.0.0,,,24-03-2024 14:39:41,24-03-2024 14:39:42,0.652s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FrontEnd/Register/Page_Document/passwordBox""), passwordBox)",Chrome 122.0.0.0,,,24-03-2024 14:39:42,24-03-2024 14:39:42,0.365s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FrontEnd/Register/Page_Document/registerBox""), passwordBox)",Chrome 122.0.0.0,,,24-03-2024 14:39:42,24-03-2024 14:39:43,0.359s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Register/Page_Document/button_Register""))",Chrome 122.0.0.0,,,24-03-2024 14:39:43,24-03-2024 14:39:46,2.893s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Register/Page_Document/bannerHomepage""))",Chrome 122.0.0.0,,,24-03-2024 14:39:46,24-03-2024 14:39:46,0.352s,PASSED
+,,,,,,,
+Test Cases/FrontEnd/Test Login success,Chrome 122.0.0.0,,,24-03-2024 14:39:46,24-03-2024 14:39:50,4.251s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,24-03-2024 14:39:46,24-03-2024 14:39:47,0.968s,PASSED
+"navigateToUrl(""http://18.140.98.114:8080/login"")",Chrome 122.0.0.0,,,24-03-2024 14:39:47,24-03-2024 14:39:48,0.677s,PASSED
+"setText(findTestObject(""Object Repository/FrontEnd/Login/Page_Document/usernameBox""), usernameBox)",Chrome 122.0.0.0,,,24-03-2024 14:39:48,24-03-2024 14:39:48,0.729s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/FrontEnd/Login/Page_Document/passwordBox""), passwordBox)",Chrome 122.0.0.0,,,24-03-2024 14:39:48,24-03-2024 14:39:49,0.399s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Login/Page_Document/Login""))",Chrome 122.0.0.0,,,24-03-2024 14:39:49,24-03-2024 14:39:49,0.493s,PASSED
+"click(findTestObject(""Object Repository/FrontEnd/Login/Page_Document/homePageBanner""))",Chrome 122.0.0.0,,,24-03-2024 14:39:49,24-03-2024 14:39:50,0.718s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,24-03-2024 14:39:50,24-03-2024 14:39:50,0.162s,PASSED

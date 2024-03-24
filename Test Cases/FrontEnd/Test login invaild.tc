@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test login invaild</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14e9e5e8-b71c-4dd1-a2c7-f77a369a3a3d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1115e736-8bf3-415e-a58d-bdbf7916fecd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>695e8e8f-f4be-43e6-9224-7ede1050fd3b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1115e736-8bf3-415e-a58d-bdbf7916fecd</id>
+      <masked>false</masked>
+      <name>usernameBox</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>695e8e8f-f4be-43e6-9224-7ede1050fd3b</id>
+      <masked>false</masked>
+      <name>passwordBox</name>
+   </variable>
+</TestCaseEntity>
